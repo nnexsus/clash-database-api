@@ -11,9 +11,69 @@ app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get("/api/troops", (req, res) => {
+app.get("/api/all", (req, res) => {
     const troops = db.troops
     res.send(troops)
+})
+
+app.get("/api/lists", (req, res) => {
+    const troops = db.types
+    res.send(troops)
+})
+
+app.get('/api/troop/:id', (req, res) => {
+    const troops = db.troops
+    var troopByName = null
+    troops.map((troop) => {
+        if (troop.name === req.params.id) {
+            troopByName = troop
+        }
+    })
+    res.send(troopByName)
+})
+
+app.get('/api/hero/:id', (req, res) => {
+    const troops = db.heroes
+    var troopByName = null
+    troops.map((troop) => {
+        if (troop.name === req.params.id) {
+            troopByName = troop
+        }
+    })
+    res.send(troopByName)
+})
+
+app.get('/api/spell/:id', (req, res) => {
+    const troops = db.spells
+    var troopByName = null
+    troops.map((troop) => {
+        if (troop.name === req.params.id) {
+            troopByName = troop
+        }
+    })
+    res.send(troopByName)
+})
+
+app.get('/api/siege/:id', (req, res) => {
+    const troops = db.seigemachines
+    var troopByName = null
+    troops.map((troop) => {
+        if (troop.name === req.params.id) {
+            troopByName = troop
+        }
+    })
+    res.send(troopByName)
+})
+
+app.get('/api/pet/:id', (req, res) => {
+    const troops = db.pets
+    var troopByName = null
+    troops.map((troop) => {
+        if (troop.name === req.params.id) {
+            troopByName = troop
+        }
+    })
+    res.send(troopByName)
 })
 
 app.listen(process.env.PORT || 3000, 
