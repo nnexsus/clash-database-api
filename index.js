@@ -69,6 +69,22 @@ app.get('/api/spells', (req, res) => {
     res.send(troops)
 })
 
+app.get('/api/super/:id', (req, res) => {
+    const troops = db.super
+    var troopByName = null
+    troops.map((troop) => {
+        if (troop.name === req.params.id) {
+            troopByName = troop
+        }
+    })
+    res.send(troopByName)
+})
+
+app.get('/api/supers', (req, res) => {
+    const troops = db.super
+    res.send(troops)
+})
+
 app.get('/api/siege/:id', (req, res) => {
     const troops = db.seigemachines
     var troopByName = null
