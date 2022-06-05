@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get("/api/all", (req, res) => {
-    const troops = db.troops
+    const troops = db
     res.send(troops)
 })
 
@@ -32,6 +32,11 @@ app.get('/api/troop/:id', (req, res) => {
     res.send(troopByName)
 })
 
+app.get('/api/troops', (req, res) => {
+    const troops = db.troops
+    res.send(troops)
+})
+
 app.get('/api/hero/:id', (req, res) => {
     const troops = db.heroes
     var troopByName = null
@@ -41,6 +46,11 @@ app.get('/api/hero/:id', (req, res) => {
         }
     })
     res.send(troopByName)
+})
+
+app.get('/api/heroes', (req, res) => {
+    const troops = db.troops
+    res.send(troops)
 })
 
 app.get('/api/spell/:id', (req, res) => {
@@ -54,6 +64,11 @@ app.get('/api/spell/:id', (req, res) => {
     res.send(troopByName)
 })
 
+app.get('/api/spells', (req, res) => {
+    const troops = db.troops
+    res.send(troops)
+})
+
 app.get('/api/siege/:id', (req, res) => {
     const troops = db.seigemachines
     var troopByName = null
@@ -65,6 +80,11 @@ app.get('/api/siege/:id', (req, res) => {
     res.send(troopByName)
 })
 
+app.get('/api/sieges', (req, res) => {
+    const troops = db.troops
+    res.send(troops)
+})
+
 app.get('/api/pet/:id', (req, res) => {
     const troops = db.pets
     var troopByName = null
@@ -74,6 +94,11 @@ app.get('/api/pet/:id', (req, res) => {
         }
     })
     res.send(troopByName)
+})
+
+app.get('/api/pets', (req, res) => {
+    const troops = db.troops
+    res.send(troops)
 })
 
 app.listen(process.env.PORT || 3000, 

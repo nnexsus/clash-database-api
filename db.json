@@ -16,7 +16,8 @@
             "list": ["barbarianking", "archerqueen", "grandwarden", "royalchampion"]
         },
         {"type": "spells",
-            "list": ["lightning", "healing", "rage", "jump", "freeze", "clone", "invisibility", "poison", "haste", "skeleton", "bat", "earthquake"]
+            "list": ["lightningspell", "healingspell", "ragespell", "jumpspell", "freezespell", "clonespell", "invisibilityspell", 
+                "poisonspell", "hastespell", "skeletonspell", "batspell", "earthquakespells"]
         },
         {"type": "pets",
             "list": ["lassi", "electroowl", "mightyyak", "unicorn"]
