@@ -1,0 +1,1027 @@
+{
+    "types": [
+        {"type": "defense",
+            "list": ["cannon", "archertower", "mortar", "airdefense", "wizardtower", "hiddentesla", "airesweeper", "bombtower", "xbow", 
+                "infernotower", "scattershot", "gigatesla", "gigainferno", "gigapoison", "eagleartillery"]
+        },
+        {"type": "walls",
+            "list": ["walls"]
+        },
+        {"type": "army",
+            "list": ["barracks", "darkbarracks", "spellfactory", "darkspellfactory", "armycamp", "barbariankingalter", "archerqueenalter",
+            "grandwardenalter", "royalchampionalter", "laboratory", "pethouse", "workshop"]
+        },
+        {"type": "resource",
+            "list": ["clancastle", "townhall", "goldstorage", "goldmine", "elixirstorage", "elixircollector", "darkelixirstorage", 
+                "darkelixirdrill"]
+        },
+        {"type": "traps",
+            "list": ["bomb", "giantbomb", "airbomb", "seekingairmine", "springtrap", "skeletontrap", "tornadotrap"]
+        }
+    ],
+
+    "defensive": [
+        {"name": "cannon",
+            "formalname": "Cannon",
+            "levels": [
+                {"level": 1,	"dps": 9,	"dpa": 7.2,	    "hp": 420,	"cost": 250,	    "time": "10s",	"thlvl": 1,   "img": "https://www.clashtrack.com/img/buildings/cannon_1.png"},
+                {"level": 2,	"dps": 11,	"dpa": 8.8,	    "hp": 470,	"cost": 1000,	    "time": "2m",	"thlvl": 1,   "img": "https://www.clashtrack.com/img/buildings/cannon_2.png"},
+                {"level": 3,	"dps": 15,	"dpa": 12,	    "hp": 520,	"cost": 4000,	    "time": "10m",	"thlvl": 2,   "img": "https://www.clashtrack.com/img/buildings/cannon_3.png"},
+                {"level": 4,	"dps": 19,	"dpa": 15.2,	"hp": 570,	"cost": 16000,	    "time": "45m",	"thlvl": 3,   "img": "https://www.clashtrack.com/img/buildings/cannon_4.png"},
+                {"level": 5,	"dps": 25,	"dpa": 20,	    "hp": 620,	"cost": 50000,	    "time": "2h",	"thlvl": 4,   "img": "https://www.clashtrack.com/img/buildings/cannon_5.png"},
+                {"level": 6,	"dps": 31,	"dpa": 24.8,	"hp": 670,	"cost": 100000,	    "time": "4h",	"thlvl": 5,   "img": "https://www.clashtrack.com/img/buildings/cannon_6.png"},
+                {"level": 7,	"dps": 40,	"dpa": 32,	    "hp": 730,	"cost": 200000,	    "time": "8h",	"thlvl": 6,   "img": "https://www.clashtrack.com/img/buildings/cannon_7.png"},
+                {"level": 8,	"dps": 48,	"dpa": 38.4,	"hp": 800,	"cost": 300000,	    "time": "10h",	"thlvl": 7,   "img": "https://www.clashtrack.com/img/buildings/cannon_8.png"},
+                {"level": 9,	"dps": 56,	"dpa": 44.8,	"hp": 880,	"cost": 500000,	    "time": "12h",	"thlvl": 8,   "img": "https://www.clashtrack.com/img/buildings/cannon_9.png"},
+                {"level": 10,	"dps": 64,	"dpa": 51.2,	"hp": 960,	"cost": 700000,	    "time": "18h",	"thlvl": 8,   "img": "https://www.clashtrack.com/img/buildings/cannon_10.png"},
+                {"level": 11,	"dps": 74,	"dpa": 59.2,	"hp": 1060,	"cost": 1000000,	"time": "1d",	"thlvl": 9,   "img": "https://www.clashtrack.com/img/buildings/cannon_11.png"},
+                {"level": 12,	"dps": 87,	"dpa": 69.6,	"hp": 1160,	"cost": 1500000,	"time": "1d 12h","thlvl":10,  "img": "https://www.clashtrack.com/img/buildings/cannon_12.png"},
+                {"level": 13,	"dps": 100,	"dpa": 80,	    "hp": 1260,	"cost": 2000000,	"time": "2d 12h","thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/cannon_13.png"},
+                {"level": 14,	"dps": 110,	"dpa": 88,	    "hp": 1380,	"cost": 3000000,	"time": "4d 12h","thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/cannon_14.png"},
+                {"level": 15,	"dps": 118,	"dpa": 94.4,	"hp": 1500,	"cost": 4500000,	"time": "6d",	"thlvl": 11,  "img": "https://www.clashtrack.com/img/buildings/cannon_15.png"},
+                {"level": 16,	"dps": 124,	"dpa": 99.2,	"hp": 1620,	"cost": 7000000,	"time": "9d",	"thlvl": 12,  "img": "https://www.clashtrack.com/img/buildings/cannon_16.png"},
+                {"level": 17,	"dps": 130,	"dpa": 104,	    "hp": 1740,	"cost": 9000000,	"time": "12d",	"thlvl": 12,  "img": "https://www.clashtrack.com/img/buildings/cannon_17.png"},
+                {"level": 18,	"dps": 139,	"dpa": 111.2,	"hp": 1870,	"cost": 11000000,	"time": "15d",	"thlvl": 13,  "img": "https://www.clashtrack.com/img/buildings/cannon_18.png"},
+                {"level": 19,	"dps": 146,	"dpa": 116.8,	"hp": 2000,	"cost": 13000000,	"time": "16d",	"thlvl": 13,  "img": "https://www.clashtrack.com/img/buildings/cannon_19.png"},
+                {"level": 20,	"dps": 154,	"dpa": 123.2,	"hp": 2150,	"cost": 17500000,	"time": "17d",	"thlvl": 14,  "img": "https://www.clashtrack.com/img/buildings/cannon_20.png"}
+            ],
+            "range": 9,
+            "attackspeed": "0.8s",
+            "target": "Ground",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [2,	2,	2,	2,	3,	3,	5,	5,	5,	6,	7,	7,	7,	7]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "archertower",
+            "formalname": "Archer Tower",
+            "levels": [
+                {"level": 1,	"dps": 11,	"dpa": 5.5,	    "hp": 380,	"cost": 1000,	    "time": "1m",	  "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/archer_tower_1.png"},
+                {"level": 2,	"dps": 15,	"dpa": 7.5,	    "hp": 420,	"cost": 2000,	    "time": "15m",	  "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/archer_tower_2.png"},
+                {"level": 3,	"dps": 19,	"dpa": 9.5,	    "hp": 460,	"cost": 5000,	    "time": "45m",	  "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/archer_tower_3.png"},
+                {"level": 4,	"dps": 25,	"dpa": 12.5,	"hp": 500,	"cost": 20000,	    "time": "3h",	  "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/archer_tower_4.png"},
+                {"level": 5,	"dps": 30,	"dpa": 15,	    "hp": 540,	"cost": 80000,	    "time": "5h",	  "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/archer_tower_5.png"},
+                {"level": 6,	"dps": 35,	"dpa": 17.5,	"hp": 580,	"cost": 180000,	    "time": "8h",	  "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/archer_tower_6.png"},
+                {"level": 7,	"dps": 42,	"dpa": 21,	    "hp": 630,	"cost": 360000,	    "time": "10h",	  "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/archer_tower_7.png"},
+                {"level": 8,	"dps": 48,	"dpa": 24,	    "hp": 690,	"cost": 600000,	    "time": "12h",	  "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/archer_tower_8.png"},
+                {"level": 9,	"dps": 56,	"dpa": 28,	    "hp": 750,	"cost": 800000,	    "time": "14h",	  "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/archer_tower_9.png"},
+                {"level": 10,	"dps": 63,	"dpa": 31.5,	"hp": 810,	"cost": 1000000,	"time": "18h",	  "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/archer_tower_10.png"},
+                {"level": 11,	"dps": 70,	"dpa": 35,	    "hp": 890,	"cost": 1200000,	"time": "1d",	  "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/archer_tower_11.png"},
+                {"level": 12,	"dps": 75,	"dpa": 37.5,	"hp": 970,	"cost": 1800000,	"time": "1d 12h","thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/archer_tower_12.png"},
+                {"level": 13,	"dps": 80,	"dpa": 40,	    "hp": 1050,	"cost": 2400000,	"time": "2d 12h","thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/archer_tower_13.png"},
+                {"level": 14,	"dps": 92,	"dpa": 46,	    "hp": 1130,	"cost": 3600000,	"time": "5d",	 "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/archer_tower_14.png"},
+                {"level": 15,	"dps": 104,	"dpa": 52,	    "hp": 1230,	"cost": 5000000,	"time": "7d",	 "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/archer_tower_15.png"},
+                {"level": 16,	"dps": 116,	"dpa": 58,	    "hp": 1330,	"cost": 7500000,	"time": "9d",	 "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/archer_tower_16.png"},
+                {"level": 17,	"dps": 122,	"dpa": 61,	    "hp": 1410,	"cost": 9500000,	"time": "12d",	 "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/archer_tower_17.png"},
+                {"level": 18,	"dps": 128,	"dpa": 64,	    "hp": 1510,	"cost": 11500000,	"time": "15d",	 "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/archer_tower_18.png"},
+                {"level": 19,	"dps": 134,	"dpa": 67,	    "hp": 1600,	"cost": 13000000,	"time": "16d",	 "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/archer_tower_19.png"},
+                {"level": 20,	"dps": 140,	"dpa": 70,	    "hp": 1700,	"cost": 17500000,	"time": "17d",	 "thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/archer_tower_20.png"}
+            ],
+            "range": 10,
+            "attackspeed": "0.5s",
+            "target": "Ground & Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	1,	1,	2,	3,	3,	4,	5,	6,	7,	8,	8,	8,	8]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "mortar",
+            "formalname": "Mortar",
+            "levels": [
+                {"level": 1,	"dps": 4,	"dpa": 20,	"hp": 400,	"cost": 5000,	"time": "3h",	    "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/mortar_1.png"},
+                {"level": 2,	"dps": 5,	"dpa": 25,	"hp": 450,	"cost": 25000,	"time": "6h",	    "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/mortar_2.png"},
+                {"level": 3,	"dps": 6,	"dpa": 30,	"hp": 500,	"cost": 100000,	"time": "12h",	    "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/mortar_3.png"},
+                {"level": 4,	"dps": 7,	"dpa": 35,	"hp": 550,	"cost": 200000,	"time": "1d",	    "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/mortar_4.png"},
+                {"level": 5,	"dps": 9,	"dpa": 45,	"hp": 600,	"cost": 400000,	"time": "2d",	    "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/mortar_5.png"},
+                {"level": 6,	"dps": 11,	"dpa": 55,	"hp": 650,	"cost": 750000,	"time": "2d 12h",	"thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/mortar_6.png"},
+                {"level": 7,	"dps": 15,	"dpa": 75,	"hp": 700,	"cost": 1500000,	"time": "3d",	"thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/mortar_7.png"},
+                {"level": 8,	"dps": 20,	"dpa": 100,	"hp": 800,	"cost": 3000000,	"time": "4d",  "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/mortar_8.png"},
+                {"level": 9,	"dps": 25,	"dpa": 125,	"hp": 900,	"cost": 5000000,	"time": "6d",  "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/mortar_9.png"},
+                {"level": 10,	"dps": 30,	"dpa": 150,	"hp": 1000,	"cost": 7000000,	"time": "8d",  "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/mortar_10.png"},
+                {"level": 11,	"dps": 35,	"dpa": 175,	"hp": 1100,	"cost": 9000000,	"time": "12d", "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/mortar_11.png"},
+                {"level": 12,	"dps": 38,	"dpa": 190,	"hp": 1200,	"cost": 10500000,	"time": "14d", "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/mortar_12.png"},
+                {"level": 13,	"dps": 42,	"dpa": 210,	"hp": 1400,	"cost": 13000000,	"time": "16d", "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/mortar_13.png"},
+                {"level": 14,	"dps": 48,	"dpa": 240,	"hp": 1600,	"cost": 17500000,	"time": "18d", "thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/mortar_14.png"}
+            ],
+            "range": "4-11",
+            "attackspeed": "5s",
+            "target": "Ground (1.5 tile splash)",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	1,	1,	1,	2,	3,	4,	4,	4,	4,	4,	4,	4]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "airdefense",
+            "formalname": "Air Defense",
+            "levels": [
+                {"level": 1,	"dps": 80,	"dpa": 80,	"hp": 800,	"cost": 22000,	"time": "3h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/air_defense_1.png"},
+                {"level": 2,	"dps": 110, "dpa": 110,	"hp": 850,	"cost": 90000,	"time": "12h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/air_defense_2.png"},
+                {"level": 3,	"dps": 140, "dpa": 140,	"hp": 900,	"cost": 270000,	"time": "16h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/air_defense_3.png"},
+                {"level": 4,	"dps": 160, "dpa": 160,	"hp": 950,	"cost": 500000,	"time": "1d",	     "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/air_defense_4.png"},
+                {"level": 5,	"dps": 190, "dpa": 190,	"hp": 1000,	"cost": 1000000,	"time": "1d 12h","thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/air_defense_5.png"},
+                {"level": 6,	"dps": 230, "dpa": 230,	"hp": 1050,	"cost": 1350000,	"time": "2d",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/air_defense_6.png"},
+                {"level": 7,	"dps": 280, "dpa": 280,	"hp": 1100,	"cost": 1750000,	"time": "3d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/air_defense_7.png"},
+                {"level": 8,	"dps": 320, "dpa": 320,	"hp": 1210,	"cost": 3500000,	"time": "5d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/air_defense_8.png"},
+                {"level": 9,	"dps": 360, "dpa": 360,	"hp": 1300,	"cost": 6000000,	"time": "9d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/air_defense_9.png"},
+                {"level": 10,	"dps": 400, "dpa": 400,	"hp": 1400,	"cost": 9500000,	"time": "14d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/air_defense_10.png"},
+                {"level": 11,	"dps": 440, "dpa": 440,	"hp": 1500,	"cost": 14000000,	"time": "16d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/air_defense_11.png"},
+                {"level": 12,	"dps": 480, "dpa": 480,	"hp": 1650,	"cost": 18000000,	"time": "18d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/air_defense_12.png"}
+            ],
+            "range": "10",
+            "attackspeed": "1s",
+            "target": "Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	1,	1,	2,	3,	3,	4,	4,	4,	4,	4,	4]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "wizardtower",
+            "formalname": "Wizard Tower",
+            "levels": [
+                {"level": 1,	"dps": 11,	"dpa": 14.3,	"hp": 620,	"cost": 120000,	"time": "3h",	        "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_1.png"},
+                {"level": 2,	"dps": 13,	"dpa": 16.9,	"hp": 650,	"cost": 220000,	"time": "8h",	        "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_2.png"},
+                {"level": 3,	"dps": 16,	"dpa": 20.8,	"hp": 680,	"cost": 420000,	"time": "12h",	        "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_3.png"},
+                {"level": 4,	"dps": 20,	"dpa": 26,	"hp": 730,	"cost": 720000,	"time": "18h",  	        "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_4.png"},
+                {"level": 5,	"dps": 24,	"dpa": 31.2,	"hp": 840,	"cost": 920000,	"time": "1d",	        "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_5.png"},
+                {"level": 6,	"dps": 32,	"dpa": 41.6,	"hp": 960,	"cost": 1200000,	"time": "1d 12h",   "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_6.png"},
+                {"level": 7,	"dps": 40,	"dpa": 52,	"hp": 1200,	"cost": 2200000,	"time": "2d",	        "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_7.png"},
+                {"level": 8,	"dps": 45,	"dpa": 58.5,	"hp": 1440,	"cost": 3200000,	"time": "3d 12h",  "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_8.png"},
+                {"level": 9,	"dps": 50,	"dpa": 65,	"hp": 1680,	"cost": 4200000,	"time": "6d",	       "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_9.png"},
+                {"level": 10,	"dps": 62,	"dpa": 80.6,	"hp": 2000,	"cost": 7200000,	"time": "9d",	   "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_10.png"},
+                {"level": 11,	"dps": 70,	"dpa": 91,	"hp": 2240,	"cost": 10200000,	"time": "14d",	       "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_11.png"},
+                {"level": 12,	"dps": 78,	"dpa": 101.4,	"hp": 2480,	"cost": 14200000,	"time": "16d",	   "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_12.png"},
+                {"level": 13,	"dps": 84,	"dpa": 109.2,	"hp": 2700,	"cost": 16200000,	"time": "17d",	   "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_13.png"},
+                {"level": 14,	"dps": 90,	"dpa": 117,	"hp": 2900,	"cost": 18200000,	"time": "18d",	       "thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/wizard_tower_14.png"}
+            ],
+            "range": "7",
+            "attackspeed": "1.3s",
+            "target": "Ground & Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	1,	2,	2,	3,	4,	4,	5,	5,	5,	5]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "airsweeper",
+            "formalname": "Air Sweeper",
+            "levels": [
+                {"level": 1,	"dpd": "1.6 tiles",	"hp": 750,	"cost": 400000,	"time": "6h",	    "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/air_sweeper_1.png"},
+                {"level": 2,	"dpd": "2.0 tiles",	"hp": 800,	"cost": 700000,	"time": "12h",	    "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/air_sweeper_2.png"},
+                {"level": 3,	"dpd": "2.4 tiles",	"hp": 850,	"cost": 1100000,	"time": "18h",	"thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/air_sweeper_3.png"},
+                {"level": 4,	"dpd": "2.8 tiles",	"hp": 900,	"cost": 1500000,	"time": "1d",	"thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/air_sweeper_4.png"},
+                {"level": 5,	"dpd": "3.2 tiles",	"hp": 950,	"cost": 2000000,	"time": "2d",	"thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/air_sweeper_5.png"},
+                {"level": 6,	"dpd": "3.6 tiles",	"hp": 1000,	"cost": 3000000,	"time": "3d",  "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/air_sweeper_6.png"},
+                {"level": 7,	"dpd": "4.0 tiles",	"hp": 1050,	"cost": 6000000,	"time": "5d",  "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/air_sweeper_7.png"}
+            ],
+            "range": "1-15",
+            "spec": "Knockback Distance",
+            "attackspeed": "5s",
+            "target": "Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	1,	2,	2,	3,	4,	4,	5,	5,	5,	5]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "hiddentesla",
+            "formalname": "Hidden Tesla",
+            "levels": [
+                {"level": 1,	"dps": 34,	"dpa": 20.4,	"hp": 600,	"cost": 300000,	"time": "2h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_1.png"},
+                {"level": 2,	"dps": 40,	"dpa": 24,	"hp": 630,	"cost": 450000,	"time": "5h",	         "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_2.png"},
+                {"level": 3,	"dps": 48,	"dpa": 28.8,	"hp": 660,	"cost": 650000,	"time": "10h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_3.png"},
+                {"level": 4,	"dps": 55,	"dpa": 33,	"hp": 690,	"cost": 850000,	"time": "18h",	         "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_4.png"},
+                {"level": 5,	"dps": 64,	"dpa": 38.4,	"hp": 730,	"cost": 1100000,	"time": "1d",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_5.png"},
+                {"level": 6,	"dps": 75,	"dpa": 45,	"hp": 770,	"cost": 1300000,	"time": "2d",	     "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_6.png"},
+                {"level": 7,	"dps": 87,	"dpa": 52.2,	"hp": 810,	"cost": 1800000,	"time": "3d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_7.png"},
+                {"level": 8,	"dps": 99,	"dpa": 59.4,	"hp": 850,	"cost": 2500000,	"time": "5d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_8.png"},
+                {"level": 9,	"dps": 110,	"dpa": 66,	"hp": 900,	"cost": 4500000,	"time": "8d",	    "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_9.png"},
+                {"level": 10,	"dps": 120,	"dpa": 72,	"hp": 980,	"cost": 8000000,	"time": "14d",	    "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_10.png"},
+                {"level": 11,	"dps": 130,	"dpa": 78,	"hp": 1100,	"cost": 13000000,	"time": "16d",	    "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_11.png"},
+                {"level": 12,	"dps": 140,	"dpa": 84,	"hp": 1200,	"cost": 15000000,	"time": "17d",	    "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_12.png"},
+                {"level": 13,	"dps": 150,	"dpa": 90,	"hp": 1350,	"cost": 18000000,	"time": "18d",	    "thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/hidden_tesla_13.png"}
+            ],
+            "range": "7",
+            "trigger": "6",
+            "attackspeed": "0.6s",
+            "target": "Ground & Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	2,	3,	4,	4,	4,	5,	5,	5]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "bombtower",
+            "formalname": "Bomb Tower",
+            "levels": [
+                {"level": 1,	"dps": 24,	"dpa": 26.4,	"dpd": 150,	"hp": 650,	"cost": 800000,	"time": "1d",	     "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_1.png"},
+                {"level": 2,	"dps": 28,	"dpa": 30.8,	"dpd": 180,	"hp": 700,	"cost": 1200000,	"time": "1d 12h","thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_2.png"},
+                {"level": 3,	"dps": 32,	"dpa": 35.2,	"dpd": 220,	"hp": 750,	"cost": 1800000,	"time": "2d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_3.png"},
+                {"level": 4,	"dps": 40,	"dpa": 44,	"dpd": 260,	"hp": 850,	"cost": 3000000,	"time": "4d",	    "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_4.png"},
+                {"level": 5,	"dps": 48,	"dpa": 52.8,	"dpd": 300,	"hp": 1050,	"cost": 5000000,	"time": "6d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_5.png"},
+                {"level": 6,	"dps": 56,	"dpa": 61.6,	"dpd": 350,	"hp": 1300,	"cost": 7000000,	"time": "9d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_6.png"},
+                {"level": 7,	"dps": 64,	"dpa": 70.4,	"dpd": 400,	"hp": 1600,	"cost": 10000000,	"time": "14d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_7.png"},
+                {"level": 8,	"dps": 72,	"dpa": 79.2,	"dpd": 450,	"hp": 1900,	"cost": 14000000,	"time": "16d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_8.png"},
+                {"level": 9,	"dps": 84,	"dpa": 92.4,	"dpd": 500,	"hp": 2300,	"cost": 18500000,	"time": "18d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/bomb_tower_9.png"}
+            ],
+            "range": "6",
+            "spec": "Damage on Death",
+            "attackspeed": "1.1s",
+            "target": "Ground",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	1,	1,	2,	2,	2,	2,	2]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "xbow",
+            "formalname": "X-Bow",
+            "levels": [
+                {"level": 1,	"dps": 60,	"dpa": 7.68,	"hp": 1500,	"cost": 1000000,	"time": "2d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/xbow_1.png"},
+                {"level": 2,	"dps": 70,	"dpa": 8.96,	"hp": 1900,	"cost": 1600000,	"time": "4d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/xbow_2.png"},
+                {"level": 3,	"dps": 80,	"dpa": 10.24,	"hp": 2300,	"cost": 2400000,	"time": "5d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/xbow_3.png"},
+                {"level": 4,	"dps": 95,	"dpa": 12.16,	"hp": 2700,	"cost": 4000000,	"time": "6d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/xbow_4.png"},
+                {"level": 5,	"dps": 125,	"dpa": 16,	    "hp": 3100,	"cost": 7000000,	"time": "9d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/xbow_5.png"},
+                {"level": 6,	"dps": 155,	"dpa": 19.84,	"hp": 3500,	"cost": 10500000,	"time": "14d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/xbow_6.png"},
+                {"level": 7,	"dps": 175,	"dpa": 22.4,	"hp": 3900,	"cost": 14000000,	"time": "16d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/xbow_7.png"},
+                {"level": 8,	"dps": 185,	"dpa": 23.68,	"hp": 4200,	"cost": 17000000,	"time": "17d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/xbow_8.png"},
+                {"level": 9,	"dps": 200,	"dpa": 25.6,	"hp": 4500,	"cost": 18500000,	"time": "19d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/xbow_9.png"}
+            ],
+            "range": "12/14",
+            "attackspeed": "0.128s",
+            "target": "Ground &/or Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	0,	2,	3,	4,	4,	4,	4]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "infernotower",
+            "formalname": "Inferno Tower",
+            "levels": [
+                {"level": 1,	"dpd": "30, 100, 1000",  "hp": 1500,	"cost": 2000000,	"time": "3d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_1.png"},
+                {"level": 2,	"dpd": "35, 115, 1150",	 "hp": 1800,	"cost": 3000000,	"time": "4d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_2.png"},
+                {"level": 3,	"dpd": "41, 130, 1300",	 "hp": 2100,	"cost": 4500000,	"time": "5d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_3.png"},
+                {"level": 4,	"dpd": "57, 155, 1550",	 "hp": 2400,	"cost": 6000000,	"time": "7d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_4.png"},
+                {"level": 5,	"dpd": "70, 175, 1750",  "hp": 2700,	"cost": 7500000,	"time": "9d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_5.png"},
+                {"level": 6,	"dpd": "81, 200, 2000",  "hp": 3000,	"cost": 10500000,	"time": "14d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_6.png"},
+                {"level": 7,	"dpd": "93, 215, 2150",	 "hp": 3300,	"cost": 16000000,	"time": "17d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_7.png"},
+                {"level": 8,	"dpd": "105, 230, 2300", "hp": 3700,	"cost": 19000000,	"time": "19d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/inferno_tower_8.png"}
+            ],
+            "range": "9",
+            "spec": "Inital Beam, Beam after 1.5s, Beam after 5.25s",
+            "attackspeed": "0.128s",
+            "target": "Ground & Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	0,	0,	2,	2,	3,	3,	3]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "eagleartillery",
+            "formalname": "Eagle Artillery",
+            "levels": [
+                {"level": 1,	"dpa": 300,	"dps": 90,	"dpd": 20,	"hp": 4000,	"trigger": 180,	"cost": 8000000,	"time": "7d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/eagle_artillery_1.png"},
+                {"level": 2,	"dpa": 350,	"dps": 105,	"dpd": 25,	"hp": 4400,	"trigger": 180,	"cost": 10000000,	"time": "10d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/eagle_artillery_2.png"},
+                {"level": 3,	"dpa": 400,	"dps": 120,	"dpd": 30,	"hp": 4800,	"trigger": 200,	"cost": 12000000,	"time": "14d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/eagle_artillery_3.png"},
+                {"level": 4,	"dpa": 450,	"dps": 135,	"dpd": 35,	"hp": 5200,	"trigger": 200,	"cost": 18000000,	"time": "18d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/eagle_artillery_4.png"},
+                {"level": 5,	"dpa": 500,	"dps": 150,	"dpd": 40,	"hp": 5600,	"trigger": 200,	"cost": 20000000,	"time": "20d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/eagle_artillery_5.png"}
+            ],
+            "range": "7-50",
+            "note": "trigger is housing space required for eagle to activate",
+            "spec": "Shockwave Damage",
+            "attackspeed": "10s",
+            "target": "Ground & Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	1,	1]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "gigatesla",
+            "formalname": "Giga Tesla",
+            "levels": [
+                {"level": 1,	"dps": 150,	"dpa": 75,	"dpd": "2 ,N/A",	    "cost": "N/A",	    "time": "N/A",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/giga_tesla_1.png"},
+                {"level": 2,	"dps": 175,	"dpa": 87.5,"dpd": "2 ,N/A",	    "cost": 4000000,	"time": "2d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/giga_tesla_2.png"},
+                {"level": 3,	"dps": 175,	"dpa": 87.5,"dpd": "3, N/A",	    "cost": 6000000,	"time": "4d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/giga_tesla_3.png"},
+                {"level": 4,	"dps": 200,	"dpa": 100,	"dpd": "3 ,N/A",	    "cost": 8000000,	"time": "6d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/giga_tesla_4.png"},
+                {"level": 5,	"dps": 200,	"dpa": 100,	"dpd": "4 ,1000",	    "cost": 10000000,	"time": "8d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/giga_tesla_5.png"}
+            ],
+            "range": "10",
+            "spec": "Targets, Damage on Death",
+            "attackspeed": "0.5s",
+            "target": "Ground & Air",
+            "cost": "gold"
+        },
+
+        {"name": "gigainferno",
+            "formalname": "Giga Inferno",
+            "levels": [
+                {"level": 1,	"dps": 200,		"dpd": "N/A",	    "cost": "N/A",	    "time": "N/A", "thlvl": 13, "img": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Giga_Inferno1.png/revision/latest/scale-to-width-down/120?cb=20200831024428"},
+                {"level": 2,	"dps": 225,		"dpd": "N/A",	    "cost": 10000000,	"time": "6d",  "thlvl": 13, "img": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Giga_Inferno2.png/revision/latest/scale-to-width-down/120?cb=20200831024429"},
+                {"level": 3,	"dps": 250,		"dpd": "4 seconds",	"cost": 12000000,	"time": "8d",  "thlvl": 13, "img": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Giga_Inferno3.png/revision/latest/scale-to-width-down/120?cb=20200831024429"},
+                {"level": 4,	"dps": 275,		"dpd": "6 seconds",	"cost": 15000000,	"time": "9d",  "thlvl": 13, "img": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Giga_Inferno4.png/revision/latest/scale-to-width-down/120?cb=20200831024430"},
+                {"level": 5,	"dps": 300,		"dpd": "8 seconds",	"cost": 18000000,	"time": "11d", "thlvl": 13, "img": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Giga_Inferno5.png/revision/latest/scale-to-width-down/120?cb=20200831024430"}
+            ],
+            "range": "10",
+            "spec": "Slowdown Period",
+            "dpd": "Damage on Death: 1000",
+            "attackspeed": "0.128s",
+            "target": "Ground & Air",
+            "cost": "gold"
+        },
+
+        {"name": "scattershot",
+            "formalname": "Scattershot",
+            "levels": [
+                {"level": 1,	"dps": 140,	"dpa": "300-451.92",	"dpd": "100-300",	"hp": 3600,	"cost": 15000000,	"time": "15d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/scattershot_1.png"},
+                {"level": 2,	"dps": 170,	"dpa": "390-548.76",	"dpd": "130-390",	"hp": 4200,	"cost": 17000000,	"time": "17d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/scattershot_2.png"},
+                {"level": 3,	"dps": 190,	"dpa": "450-613.32",	"dpd": "150-450",	"hp": 4800,	"cost": 19000000,	"time": "19d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/scattershot_3.png"}
+            ],
+            "range": "3-10",
+            "spec": "Area Splash",
+            "attackspeed": "3.228s",
+            "target": "Ground & Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	2,	2]
+            },
+            "cost": "gold"
+        }, 
+
+        {"name": "gigapoison",
+            "formalname": "Giga Poison",
+            "levels": [
+                {"level": 1,	"dps": 100,	"dpd": "30%, 30%",	"cost": "N/A",	    "time": "N/A",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/giga_inferno_1.png"},
+                {"level": 2,	"dps": 120,	"dpd": "35%, 35%",	"cost": 9000000,	"time": "9d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/giga_inferno_2.png"},
+                {"level": 3,	"dps": 140,	"dpd": "40%, 40%",	"cost": 11000000,	"time": "11d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/giga_inferno_3.png"},
+                {"level": 4,	"dps": 160,	"dpd": "45%, 45%",	"cost": 13000000,	"time": "13d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/giga_inferno_4.png"},
+                {"level": 5,	"dps": 180,	"dpd": "50%, 50%",	"cost": 15000000,	"time": "14d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/giga_inferno_5.png"}
+            ],
+            "range": "10",
+            "spec": "Speed decrease, Attack rate decrease",
+            "dpd": "All attack stats mimic that of the TH13 Giga Inferno",
+            "attackspeed": "0.128s",
+            "target": "Ground & Air",
+            "cost": "gold"
+        },
+
+        {"name": "builderhut",
+            "formalname": "Builder Hut",
+            "levels": [
+                {"level": 1,	"dps":"N/A","dpa":"N/A","dpd": "N/A",	"hp": 250,	"cost": "**",	    "time": "Instant","thlvl": 1, "img": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Builders_Hut.png/revision/latest/scale-to-width-down/80?cb=20171106183136"},
+                {"level": 2,	"dps": 80,	"dpa": 32,	"dpd": "50",	"hp": 1000,	"cost": 9500000,	"time": "10d",	 "thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/battle_builder_hut_2.png"},
+                {"level": 3,	"dps": 100,	"dpa": 40,	"dpd": "60",	"hp": 1300,	"cost": 12500000,	"time": "12d",	 "thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/battle_builder_hut_3.png"},
+                {"level": 4,	"dps": 120,	"dpa": 48,	"dpd": "70",	"hp": 1600,	"cost": 15500000,	"time": "14d",	 "thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/battle_builder_hut_4.png"}
+            ],
+            "range": "7",
+            "spec": "Repair Per Second",
+            "attackspeed": "0.4s",
+            "target": "Ground & Air",
+            "cost": "gold"
+        }
+    ],
+    "traps": [
+        {"name": "bomb",
+            "formalname": "Bomb",
+            "levels": [
+                {"level": 1,	"dpa": 20,	"cost": 400,	    "time": "N/A",	 "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/bomb_1.png"},
+                {"level": 2,	"dpa": 24,	"cost": 1000,	    "time": "6m",	 "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/bomb_2.png"},
+                {"level": 3,	"dpa": 29,	"cost": 10000,	    "time": "2h",	 "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/bomb_3.png"},
+                {"level": 4,	"dpa": 35,	"cost": 100000,	    "time": "8h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/bomb_4.png"},
+                {"level": 5,	"dpa": 42,	"cost": 300000,	    "time": "18h",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/bomb_5.png"},
+                {"level": 6,	"dpa": 54,	"cost": 500000,	    "time": "1d 12h","thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/bomb_6.png"},
+                {"level": 7,	"dpa": 72,	"cost": 1000000,	"time": "3d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/bomb_7.png"},
+                {"level": 8,	"dpa": 92,	"cost": 2000000,	"time": "4d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/bomb_8.png"},
+                {"level": 9,	"dpa": 125,	"cost": 4000000,	"time": "6d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/bomb_9.png"},
+                {"level": 10,	"dpa": 140,	"cost": 6000000,	"time": "8d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/bomb_10.png"}
+            ],
+            "range": "3",
+            "trigger": "1.5",
+            "attackspeed": "Instant",
+            "target": "Ground",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	2,	2,	4,	4,	6,	6,	6,	6,	6,	6,	7,	8]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "springtrap",
+            "formalname": "Spring Trap",
+            "levels": [
+                {"level": 1,	"dpd": 10,	"cost": 2000,	    "time": "N/A",	 "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/spring_trap_1.png"},
+                {"level": 2,	"dpd": 12,	"cost": 300000,	    "time": "12h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/spring_trap_2.png"},
+                {"level": 3,	"dpd": 14,	"cost": 500000,	    "time": "18h",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/spring_trap_3.png"},
+                {"level": 4,	"dpd": 16,	"cost": 800000,	    "time": "1d 12h","thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/spring_trap_4.png"},
+                {"level": 5,	"dpd": 18,	"cost": 1200000,	"time": "3d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/spring_trap_5.png"}
+            ],
+            "range": "0.8",
+            "trigger": "0.8",
+            "attackspeed": "Instant",
+            "target": "Ground",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	2,	2,	4,	4,	6,	6,	6,	6,	8,	9,	9]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "giantbomb",
+            "formalname": "Giant Bomb",
+            "levels": [
+                {"level": 1,	"dpa": 175,	"dpd": "3 tiles",	"cost": 12500,	    "time": "N/A",	 "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_1.png"},
+                {"level": 2,	"dpa": 200,	"dpd": "3.5 tiles",	"cost": 75000,	    "time": "6h",	 "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_2.png"},
+                {"level": 3,	"dpa": 225,	"dpd": "3.5 tiles",	"cost": 600000,	    "time": "1d",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_3.png"},
+                {"level": 4,	"dpa": 250,	"dpd": "4 tiles",	"cost": 2400000,	"time": "3d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_4.png"},
+                {"level": 5,	"dpa": 275,	"dpd": "4 tiles",	"cost": 3500000,	"time": "5d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_5.png"},
+                {"level": 6,	"dpa": 325,	"dpd": "4 tiles",	"cost": 5000000,	"time": "7d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_6.png"},
+                {"level": 7,	"dpa": 375,	"dpd": "4 tiles",	"cost": 7000000,	"time": "9d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_7.png"},
+                {"level": 8,	"dpa": 400,	"dpd": "4 tiles",	"cost": 9000000,	"time": "11d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/giant_bomb_8.png"}
+            ],
+            "range": "2",
+            "trigger": "2",
+            "attackspeed": "Instant",
+            "target": "Ground",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	1,	2,	3,	4,	5,	5,	6,	6,	7]
+            },
+            "cost": "gold"
+        }, 
+
+        {"name": "airbomb",
+            "formalname": "Air Bomb",
+            "levels": [
+                {"level": 1,	"dpa": 100,	"cost": 4000,	    "time": "N/A",   "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/air_bomb_1.png"},
+                {"level": 2,	"dpa": 120,	"cost": 20000,	    "time": "4h",	 "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/air_bomb_2.png"},
+                {"level": 3,	"dpa": 144,	"cost": 200000,	    "time": "12h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/air_bomb_3.png"},
+                {"level": 4,	"dpa": 173,	"cost": 600000,	    "time": "1d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/air_bomb_4.png"},
+                {"level": 5,	"dpa": 200,	"cost": 2000000,	"time": "2d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/air_bomb_5.png"},
+                {"level": 6,	"dpa": 228,	"cost": 3000000,	"time": "3d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/air_bomb_6.png"},
+                {"level": 7,	"dpa": 248,	"cost": 4000000,	"time": "6d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/air_bomb_7.png"},
+                {"level": 8,	"dpa": 270,	"cost": 5000000,	"time": "7d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/air_bomb_8.png"},
+                {"level": 9,	"dpa": 290,	"cost": 7000000,	"time": "9d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/air_bomb_9.png"}
+            ],
+            "range": "4",
+            "trigger": "3",
+            "attackspeed": "Instant",
+            "target": "Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	1,	2,	4,	4,	5,	5,	6,	6,	7]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "seekingairmine",
+            "formalname": "Seeking Air Mine",
+            "levels": [
+                {"level": 1,	"dpa": 1500,	"cost": 15000,	    "time": "N/A",   "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/seeking_air_mine_1.png"},
+                {"level": 2,	"dpa": 1800,	"cost": 1000000,	"time": "1d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/seeking_air_mine_2.png"},
+                {"level": 3,	"dpa": 2100,	"cost": 2500000,	"time": "3d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/seeking_air_mine_3.png"},
+                {"level": 4,	"dpa": 2500,	"cost": 6000000,	"time": "7d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/seeking_air_mine_4.png"}
+            ],
+            "trigger": "4",
+            "attackspeed": "Instant",
+            "target": "Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	1,	2,	4,	5,	5,	6,	7,	8]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "skeletontrap",
+            "formalname": "Skeleton Trap",
+            "levels": [
+                {"level": 1,	"dpd": 2,	"cost": 6000,	    "time": "N/A",     "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/skeleton_trap_1.png"},
+                {"level": 2,	"dpd": 3,	"cost": 450000,	    "time": "5h",	   "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/skeleton_trap_2.png"},
+                {"level": 3,	"dpd": 4,	"cost": 900000,	    "time": "20h",	   "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/skeleton_trap_3.png"},
+                {"level": 4,	"dpd": 5,	"cost": 1500000,	"time": "1d 16h", "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/skeleton_trap_4.png"}
+            ],
+            "trigger": "5",
+            "attackspeed": "Instant",
+            "target": "Ground or Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	2,	2,	3,	3,	3,	3,	4]
+            },
+            "cost": "gold"
+        },
+
+        {"name": "tornadotrap",
+            "formalname": "Tornado Trap",
+            "levels": [
+                {"level": 1,	"dpd": "5 seconds",	"dpa": 40,	"cost": 2500000,	"time": "N/A",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/tornado_trap_1.png"},
+                {"level": 2,	"dpd": "6 seconds",	"dpa": 48,	"cost": 4000000,	"time": "2d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/tornado_trap_2.png"},
+                {"level": 3,	"dpd": "7 seconds",	"dpa": 56,	"cost": 5000000,	"time": "3d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/tornado_trap_3.png"}
+            ],
+            "trigger": "3",
+            "range": "3",
+            "attackspeed": "Instant",
+            "target": "Ground or Air",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	1,	1]
+            },
+            "cost": "gold"
+        }
+    ],
+    "walls": {
+        "levels": [
+            {"level": 1,	"hp": 300,	"cost": 50,	    "culmcost": 50,	    "wr": "N/A", "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/wall_1.png"},
+            {"level": 2,	"hp": 500,	"cost": 1000,	"culmcost": 1050,   "wr": 1,	 "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/wall_2.png"},
+            {"level": 3,	"hp": 700,	"cost": 5000,	"culmcost": 6050,	"wr": 1,	 "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/wall_3.png"},
+            {"level": 4,	"hp": 900,	"cost": 10000,	"culmcost": 16050,	"wr": 1,	 "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/wall_4.png"},
+            {"level": 5,	"hp": 1400,	"cost": 20000,	"culmcost": 36050,	"wr": 1,	 "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/wall_5.png"},
+            {"level": 6,	"hp": 2000,	"cost": 30000,	"culmcost": 66050,	"wr": 1,	 "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/wall_6.png"},
+            {"level": 7,	"hp": 2500,	"cost": 50000,	"culmcost": 116050,	"wr": 1,	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/wall_7.png"},
+            {"level": 8,	"hp": 3000,	"cost": 75000,	"culmcost": 191050,	"wr": 1,	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/wall_8.png"},
+            {"level": 9,	"hp": 4000,	"cost": 100000,	"culmcost": 291050,	"wr": 1,	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/wall_9.png"},
+            {"level": 10,	"hp": 5500,	"cost": 200000,	"culmcost": 491050,	"wr": 1,	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/wall_10.png"},
+            {"level": 11,	"hp": 7000,	"cost": 500000,	"culmcost": 991050,	"wr": 1,	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/wall_11.png"},
+            {"level": 12,	"hp": 8500,	"cost": 1000000,"culmcost": 1991050,"wr": 1,	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/wall_12.png"},
+            {"level": 13,	"hp": 10000,"cost": 3000000,"culmcost": 4991050,"wr": 3,	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/wall_13.png"},
+            {"level": 14,	"hp": 11500,"cost": 5000000,"culmcost": 9991050,"wr": 5,	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/wall_14.png"},
+            {"level": 15,	"hp": 12500,"cost": 7000000,"culmcost": 16991050,"wr": 7,	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/wall_15.png"}
+        ],
+        "amt": {
+            "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+            "amt": [0,	25,	50,	75,	100, 125, 175, 225, 250, 275, 300, 300, 300, 325]
+        },
+        "cost": "gold, elixir"
+    },
+    "main": [
+        {"name": "townhall",
+            "formalname": "Town Hall",
+            "levels": [
+                {"level": 1,	"hp": 450,	"cost": "N/A",	    "time": "N/A",	"maxbuild": 14,  "maxtrap": 0, "img": "https://www.clashtrack.com/img/buildings/town_hall_1.png"},
+                {"level": 2,	"hp": 1600,	"cost": 1000,	    "time": "10s",	"maxbuild": 19,	 "maxtrap": 0, "img": "https://www.clashtrack.com/img/buildings/town_hall_2.png"},
+                {"level": 3,	"hp": 1850,	"cost": 4000,	    "time": "1h",	"maxbuild": 26,	 "maxtrap": 2, "img": "https://www.clashtrack.com/img/buildings/town_hall_3.png"},
+                {"level": 4,	"hp": 2100,	"cost": 25000,	    "time": "3h",	"maxbuild": 31,	 "maxtrap": 4, "img": "https://www.clashtrack.com/img/buildings/town_hall_4.png"},
+                {"level": 5,	"hp": 2400,	"cost": 150000,	    "time": "6h",	"maxbuild": 38,	 "maxtrap": 8, "img": "https://www.clashtrack.com/img/buildings/town_hall_5.png"},
+                {"level": 6,	"hp": 2800,	"cost": 750000,	    "time": "12h",	"maxbuild": 44,	"maxtrap": 11, "img": "https://www.clashtrack.com/img/buildings/town_hall_6.png"},
+                {"level": 7,	"hp": 3300,	"cost": 1000000,	"time": "18h",	"maxbuild": 57,	"maxtrap": 15, "img": "https://www.clashtrack.com/img/buildings/town_hall_7.png"},
+                {"level": 8,	"hp": 3900,	"cost": 2000000,	"time": "1d",	"maxbuild": 67,	"maxtrap": 23, "img": "https://www.clashtrack.com/img/buildings/town_hall_8.png"},
+                {"level": 9,	"hp": 4600,	"cost": 3000000,	"time": "2d",	"maxbuild": 80,	"maxtrap": 26, "img": "https://www.clashtrack.com/img/buildings/town_hall_9.png"},
+                {"level": 10,	"hp": 5500,	"cost": 4000000,	"time": "3d",	"maxbuild": 87,	"maxtrap": 30, "img": "https://www.clashtrack.com/img/buildings/town_hall_10.png"},
+                {"level": 11,	"hp": 6800,	"cost": 5500000,	"time": "4d",	"maxbuild": 93,	"maxtrap": 31, "img": "https://www.clashtrack.com/img/buildings/town_hall_11.png"},
+                {"level": 12,	"hp": 7500,	"cost": 8500000,	"time": "6d",	"maxbuild": 96,	"maxtrap": 36, "img": "https://www.clashtrack.com/img/buildings/town_hall_12.png"},
+                {"level": 13,	"hp": 8200,	"cost": 11500000,	"time": "10d",	"maxbuild": 99,	"maxtrap": 39, "img": "https://www.clashtrack.com/img/buildings/town_hall_13.png"},
+                {"level": 14,	"hp": 8900,	"cost": 16000000,	"time": "14d",	"maxbuild": 100,"maxtrap": 44, "img": "https://www.clashtrack.com/img/buildings/town_hall_14.png"}
+            ],
+            "storage": [
+                {"level": 1,	    "gold": 1000,	    "elixir": 1000,	        "darkelixir": 0},
+                {"level": 2,	    "gold": 2500,	    "elixir": 2500,	        "darkelixir": 0},
+                {"level": 3,	    "gold": 10000,	    "elixir": 10000,	    "darkelixir": 0},
+                {"level": 4,	    "gold": 50000,	    "elixir": 50000,	    "darkelixir": 0},
+                {"level": 5,	    "gold": 100000,	    "elixir": 100000,	    "darkelixir": 0},
+                {"level": 6,	    "gold": 300000,	    "elixir": 300000,	    "darkelixir": 0},
+                {"level": 7,	    "gold": 500000,	    "elixir": 500000,	 "darkelixir": 2500},
+                {"level": 8,	    "gold": 750000,	    "elixir": 750000,	 "darkelixir": 5000},
+                {"level": 9,	    "gold": 1000000,	"elixir": 1000000,	"darkelixir": 10000},
+                {"level": 10,	    "gold": 1500000,	"elixir": 1500000,	"darkelixir": 20000},
+                {"level": "11-14",	"gold": 2000000,	"elixir": 2000000,	"darkelixir": 20000}
+            ],
+            "cost": "gold"
+        },
+
+        {"name": "goldmine",
+            "formalname": "Gold Mine",
+            "levels": [
+                {"level": 1,	"cap": 1000,	"rate": "200/hr",	"hp": 400,	"boost": "N/A",	"filltime": "5h",	    "cost": 150,	"time": "10s",	             "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/gold_mine_1.png"},
+                {"level": 2,	"cap": 2000,	"rate": "400/hr",	"hp": 440,	"boost": "N/A",	"filltime": "5h",	    "cost": 300,	"time": "1m",	             "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/gold_mine_2.png"},
+                {"level": 3,	"cap": 3000,	"rate": "600/hr",	"hp": 480,	"boost": "N/A",	"filltime": "5h",	    "cost": 700,	"time": "4m",	             "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/gold_mine_3.png"},
+                {"level": 4,	"cap": 5000,	"rate": "800/hr",	"hp": 520,	"boost": "N/A",	"filltime": "6h 15m",	"cost": 1400,	"time": "10m",	             "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/gold_mine_4.png"},
+                {"level": 5,	"cap": 10000,	"rate": "1000/hr",	"hp": 560,	"boost": 4,	    "filltime": "10h",	        "cost": 3000,	"time": "40m",	         "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/gold_mine_5.png"},
+                {"level": 6,	"cap": 20000,	"rate": "1300/hr",	"hp": 600,	"boost": 5,	    "filltime": "15h 23m 5s",	"cost": 7000,	"time": "3h",	         "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/gold_mine_6.png"},
+                {"level": 7,	"cap": 30000,	"rate": "1600/hr",	"hp": 640,	"boost": 6,	    "filltime": "18h 45m",	    "cost": 14000,	"time": "6h",	         "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/gold_mine_7.png"},
+                {"level": 8,	"cap": 50000,	"rate": "1900/hr",	"hp": 680,	"boost": 7,	    "filltime": "1d 2h 18m 57s",	"cost": 28000, "time": "8h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/gold_mine_8.png"},
+                {"level": 9,	"cap": 75000,	"rate": "2200/hr",	"hp": 720,	"boost": 8,	    "filltime": "1d 10h 5m 27s",	"cost": 56000, "time": "10h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/gold_mine_9.png"},
+                {"level": 10,	"cap": 100000,	"rate": "2800/hr",	"hp": 780,	"boost": 9,	    "filltime": "1d 11h 42m 52s",	"cost": 75000, "time": "12h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/gold_mine_10.png"},
+                {"level": 11,	"cap": 150000,	"rate": "3500/hr",	"hp": 860,	"boost": 10,	"filltime": "1d 18h 51m 26s",	"cost": 100000, "time": "16h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/gold_mine_11.png"},
+                {"level": 12,	"cap": 200000,	"rate": "4200/hr",	"hp": 960,	"boost": 10,	"filltime": "1d 23h 37m 9s",	"cost": 200000, "time": "20h",	     "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/gold_mine_12.png"},
+                {"level": 13,	"cap": 250000,	"rate": "4900/hr",	"hp": 1080,	"boost": 11,	"filltime": "2d 3h 1m 14s",	    "cost": 400000, "time": "1d 16h",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/gold_mine_13.png"},
+                {"level": 14,	"cap": 300000,	"rate": "5600/hr",	"hp": 1180,	"boost": 11,	"filltime": "2d 5h 34m 18s",	"cost": 800000, "time": "3d 8h",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/gold_mine_14.png"},
+                {"level": 15,	"cap": 350000,	"rate": "6300/hr",	"hp": 1280,	"boost": 11,	"filltime": "2d 7h 33m 20s",	"cost": 1200000,"time": "6d",	    "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/gold_mine_15.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [1,	2,	3,	4,	5,	6,	6,	6,	7,	7,	7,	7,	7,	7]
+            },
+            "cost": "elixir",
+            "hold": "gold"
+        },
+
+        {"name": "elixircollector",
+            "formalname": "Elixir Collector",
+            "levels": [
+                {"level": 1,	"cap": 1000,	"rate": "200/hr",	"hp": 400,	"boost": "N/A",	"filltime": "5h",	    "cost": 150,	"time": "10s",	             "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_1.png"},
+                {"level": 2,	"cap": 2000,	"rate": "400/hr",	"hp": 440,	"boost": "N/A",	"filltime": "5h",	    "cost": 300,	"time": "1m",	             "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_2.png"},
+                {"level": 3,	"cap": 3000,	"rate": "600/hr",	"hp": 480,	"boost": "N/A",	"filltime": "5h",	    "cost": 700,	"time": "4m",	             "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_3.png"},
+                {"level": 4,	"cap": 5000,	"rate": "800/hr",	"hp": 520,	"boost": "N/A",	"filltime": "6h 15m",	"cost": 1400,	"time": "10m",	             "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_4.png"},
+                {"level": 5,	"cap": 10000,	"rate": "1000/hr",	"hp": 560,	"boost": 4,	    "filltime": "10h",	        "cost": 3000,	"time": "40m",	         "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_5.png"},
+                {"level": 6,	"cap": 20000,	"rate": "1300/hr",	"hp": 600,	"boost": 5,	    "filltime": "15h 23m 5s",	"cost": 7000,	"time": "3h",	         "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_6.png"},
+                {"level": 7,	"cap": 30000,	"rate": "1600/hr",	"hp": 640,	"boost": 6,	    "filltime": "18h 45m",	    "cost": 14000,	"time": "6h",	         "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_7.png"},
+                {"level": 8,	"cap": 50000,	"rate": "1900/hr",	"hp": 680,	"boost": 7,	    "filltime": "1d 2h 18m 57s",	"cost": 28000, "time": "8h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_8.png"},
+                {"level": 9,	"cap": 75000,	"rate": "2200/hr",	"hp": 720,	"boost": 8,	    "filltime": "1d 10h 5m 27s",	"cost": 56000, "time": "10h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_9.png"},
+                {"level": 10,	"cap": 100000,	"rate": "2800/hr",	"hp": 780,	"boost": 9,	    "filltime": "1d 11h 42m 52s",	"cost": 75000, "time": "12h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_10.png"},
+                {"level": 11,	"cap": 150000,	"rate": "3500/hr",	"hp": 860,	"boost": 10,	"filltime": "1d 18h 51m 26s",	"cost": 100000, "time": "16h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_11.png"},
+                {"level": 12,	"cap": 200000,	"rate": "4200/hr",	"hp": 960,	"boost": 10,	"filltime": "1d 23h 37m 9s",	"cost": 200000, "time": "20h",	     "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_12.png"},
+                {"level": 13,	"cap": 250000,	"rate": "4900/hr",	"hp": 1080,	"boost": 11,	"filltime": "2d 3h 1m 14s",	    "cost": 400000, "time": "1d 16h",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_13.png"},
+                {"level": 14,	"cap": 300000,	"rate": "5600/hr",	"hp": 1180,	"boost": 11,	"filltime": "2d 5h 34m 18s",	"cost": 800000, "time": "3d 8h",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_14.png"},
+                {"level": 15,	"cap": 350000,	"rate": "6300/hr",	"hp": 1280,	"boost": 11,	"filltime": "2d 7h 33m 20s",	"cost": 1200000,"time": "6d",	    "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/elixir_collector_15.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [1,	2,	3,	4,	5,	6,	6,	6,	7,	7,	7,	7,	7,	7]
+            },
+            "cost": "gold",
+            "hold": "elixir"
+        },
+
+        {"name": "darkelixirdrill",
+            "formalname": "Dark Elixir Drill",
+            "levels": [
+                {"level": 1,	"cap": 160,	    "rate": "20/hr",	"hp": 800,	"boost": 7,	    "filltime": "8h",	"cost": 500000,	    "time": "6h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_1.png"},
+                {"level": 2,	"cap": 300,	    "rate": "30/hr",	"hp": 860,	"boost": 10,	"filltime": "10h",	"cost": 700000,	    "time": "12h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_2.png"},
+                {"level": 3,	"cap": 540,	    "rate": "45/hr",	"hp": 920,	"boost": 15,	"filltime": "12h",	"cost": 900000,	    "time": "18h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_3.png"},
+                {"level": 4,	"cap": 840,	    "rate": "60/hr",	"hp": 980,	"boost": 20,	"filltime": "14h",	"cost": 1200000,	"time": "1d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_4.png"},
+                {"level": 5,	"cap": 1280,	"rate": "80/hr",	"hp": 1060,	"boost": 25,	"filltime": "16h",	"cost": 1500000,	"time": "1d 12h","thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_5.png"},
+                {"level": 6,	"cap": 1800,	"rate": "100/hr",	"hp": 1160,	"boost": 30,	"filltime": "18h",	"cost": 1800000,	"time": "2d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_6.png"},
+                {"level": 7,	"cap": 2400,	"rate": "120/hr",	"hp": 1280,	"boost": 35,	"filltime": "20h",	"cost": 2400000,	"time": "3d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_7.png"},
+                {"level": 8,	"cap": 3000,	"rate": "140/hr",	"hp": 1380,	"boost": 40,	"filltime": "21h 25m 43s","cost":3000000,"time": "4d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_8.png"},
+                {"level": 9,	"cap": 3600,	"rate": "160/hr",	"hp": 1480,	"boost": 45,	"filltime": "22h 30m","cost":4000000,   "time": "7d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_drill_9.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	1,	2,	3,	3,	3,	3,	3,	3]
+            },
+            "cost": "elixir",
+            "hold": "darkelixir"
+        },
+
+        {"name": "goldstorage",
+            "formalname": "Gold Storage",
+            "levels": [
+                {"level": 1,	"cap": 1500,	"hp": 400,	"cost": 300,	"time": "10s",	     "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/gold_storage_1.png"},
+                {"level": 2,	"cap": 3000,	"hp": 600,	"cost": 750,	"time": "5m",	     "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/gold_storage_2.png"},
+                {"level": 3,	"cap": 6000,	"hp": 800,	"cost": 1500,	"time": "20m",	     "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/gold_storage_3.png"},
+                {"level": 4,	"cap": 12000,	"hp": 1000,	"cost": 3000,	"time": "1h",	     "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/gold_storage_4.png"},
+                {"level": 5,	"cap": 25000,	"hp": 1200,	"cost": 6000,	"time": "2h",	     "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/gold_storage_5.png"},
+                {"level": 6,	"cap": 45000,	"hp": 1400,	"cost": 12000,	"time": "3h",	     "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/gold_storage_6.png"},
+                {"level": 7,	"cap": 100000,	"hp": 1600,	"cost": 25000,	"time": "4h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/gold_storage_7.png"},
+                {"level": 8,	"cap": 225000,	"hp": 1700,	"cost": 50000,	"time": "5h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/gold_storage_8.png"},
+                {"level": 9,	"cap": 450000,	"hp": 1800,	"cost": 100000,	"time": "8h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/gold_storage_9.png"},
+                {"level": 10,	"cap": 850000,	"hp": 1900,	"cost": 250000,	"time": "12h",	     "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/gold_storage_10.png"},
+                {"level": 11,	"cap": 1750000,	"hp": 2100,	"cost": 500000,	"time": "16h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/gold_storage_11.png"},
+                {"level": 12,	"cap": 2000000,	"hp": 2500,	"cost": 1500000,	"time": "3d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/gold_storage_12.png"},
+                {"level": 13,	"cap": 3000000,	"hp": 2900,	"cost": 3000000,	"time": "6d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/gold_storage_13.png"},
+                {"level": 14,	"cap": 4000000,	"hp": 3300,	"cost": 4500000,	"time": "9d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/gold_storage_14.png"},
+                {"level": 15,	"cap": 4500000,	"hp": 3700,	"cost": 6000000,	"time": "12d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/gold_storage_15.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [1,	1,	2,	2,	2,	2,	2,	3,	4,	4,	4,	4,	4,	4]
+            },
+            "cost": "elixir",
+            "hold": "gold"
+        },
+
+        {"name": "elixirstorage",
+            "formalname": "Elixir Storage",
+            "levels": [
+                {"level": 1,	"cap": 1500,	"hp": 400,	"cost": 300,	"time": "10s",	     "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_1.png"},
+                {"level": 2,	"cap": 3000,	"hp": 600,	"cost": 750,	"time": "5m",	     "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_2.png"},
+                {"level": 3,	"cap": 6000,	"hp": 800,	"cost": 1500,	"time": "20m",	     "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_3.png"},
+                {"level": 4,	"cap": 12000,	"hp": 1000,	"cost": 3000,	"time": "1h",	     "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_4.png"},
+                {"level": 5,	"cap": 25000,	"hp": 1200,	"cost": 6000,	"time": "2h",	     "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_5.png"},
+                {"level": 6,	"cap": 45000,	"hp": 1400,	"cost": 12000,	"time": "3h",	     "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_6.png"},
+                {"level": 7,	"cap": 100000,	"hp": 1600,	"cost": 25000,	"time": "4h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_7.png"},
+                {"level": 8,	"cap": 225000,	"hp": 1700,	"cost": 50000,	"time": "5h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_8.png"},
+                {"level": 9,	"cap": 450000,	"hp": 1800,	"cost": 100000,	"time": "8h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_9.png"},
+                {"level": 10,	"cap": 850000,	"hp": 1900,	"cost": 250000,	"time": "12h",	     "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_10.png"},
+                {"level": 11,	"cap": 1750000,	"hp": 2100,	"cost": 500000,	"time": "16h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_11.png"},
+                {"level": 12,	"cap": 2000000,	"hp": 2500,	"cost": 1500000,	"time": "3d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_12.png"},
+                {"level": 13,	"cap": 3000000,	"hp": 2900,	"cost": 3000000,	"time": "6d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_13.png"},
+                {"level": 14,	"cap": 4000000,	"hp": 3300,	"cost": 4500000,	"time": "9d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_14.png"},
+                {"level": 15,	"cap": 4500000,	"hp": 3700,	"cost": 6000000,	"time": "12d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/elixir_storage_15.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [1,	1,	2,	2,	2,	2,	2,	3,	4,	4,	4,	4,	4,	4]
+            },
+            "cost": "gold",
+            "hold": "elixir"
+        },
+
+        {"name": "darkelixirstorage",
+            "formalname": "Dark Elixir Storage",
+            "levels": [
+                {"level": 1,	"cap": 10000,	"hp": 2000,	"cost": 250000,	"time": "8h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_1.png"},
+                {"level": 2,	"cap": 17500,	"hp": 2200,	"cost": 500000,	"time": "16h",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_2.png"},
+                {"level": 3,	"cap": 40000,	"hp": 2400,	"cost": 1000000,	"time": "1d",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_3.png"},
+                {"level": 4,	"cap": 75000,	"hp": 2600,	"cost": 1500000,	"time": "1d 12h","thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_4.png"},
+                {"level": 5,	"cap": 140000,	"hp": 2900,	"cost": 2000000,	"time": "2d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_5.png"},
+                {"level": 6,	"cap": 180000,	"hp": 3200,	"cost": 3000000,	"time": "3d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_6.png"},
+                {"level": 7,	"cap": 220000,	"hp": 3500,	"cost": 6000000,	"time": "5d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_7.png"},
+                {"level": 8,	"cap": 280000,	"hp": 3800,	"cost": 9000000,	"time": "10d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_8.png"},
+                {"level": 9,	"cap": 330000,	"hp": 4100,	"cost": 12000000,	"time": "15d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/dark_elixir_storage_9.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	1,	1,	1,	1,	1,	1,	1,	1]
+            },
+            "cost": "elixir",
+            "hold": "darkelixir"
+        },
+
+        {"name": "clancastle",
+            "formalname": "Clan Castle",
+            "levels": [
+                {"level": 1,	"hp": 1000,	"troopcap": 10,	"spellcap": 0,	"siegecap": 0,	"lablvlcap": 5,	    "cost": 10000,	    "time": "N/A","thlvl": "2*", "img": "https://www.clashtrack.com/img/buildings/clan_castle_1.png"},
+                {"level": 2,	"hp": 1400,	"troopcap": 15,	"spellcap": 0,	"siegecap": 0,	"lablvlcap": 6,	    "cost": 100000,	    "time": "8h",	 "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/clan_castle_2.png"},
+                {"level": 3,	"hp": 2000,	"troopcap": 20,	"spellcap": 0,	"siegecap": 0,	"lablvlcap": 7,	    "cost": 800000,	    "time": "12h",	 "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/clan_castle_3.png"},
+                {"level": 4,	"hp": 2600,	"troopcap": 25,	"spellcap": 1,	"siegecap": 0,	"lablvlcap": 8,	    "cost": 1200000,	"time": "1d",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/clan_castle_4.png"},
+                {"level": 5,	"hp": 3000,	"troopcap": 30,	"spellcap": 1,	"siegecap": 0,	"lablvlcap": 9,	    "cost": 2500000,	"time": "2d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/clan_castle_5.png"},
+                {"level": 6,	"hp": 3400,	"troopcap": 35,	"spellcap": 1,	"siegecap": 1,	"lablvlcap": 10,	"cost": 5000000,	"time": "6d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/clan_castle_6.png"},
+                {"level": 7,	"hp": 4000,	"troopcap": 35,	"spellcap": 2,	"siegecap": 1,	"lablvlcap": 11,	"cost": 8000000,	"time": "9d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/clan_castle_7.png"},
+                {"level": 8,	"hp": 4400,	"troopcap": 40,	"spellcap": 2,	"siegecap": 1,	"lablvlcap": 12,	"cost": 12000000,	"time": "14d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/clan_castle_8.png"},
+                {"level": 9,	"hp": 4800,	"troopcap": 45,	"spellcap": 2,	"siegecap": 1,	"lablvlcap": 12,	"cost": 16000000,	"time": "18d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/clan_castle_9.png"},
+                {"level": 10,	"hp": 5200,	"troopcap": 45,	"spellcap": 3,	"siegecap": 1,	"lablvlcap": 12,	"cost": 19000000,	"time": "20d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/clan_castle_10.png"}
+            ],
+            "trigger": "13",
+            "storage": [
+                {"thlvl": 1,	"gold": 50000, "elixir": 50000,	"darkelixir": 0},
+                {"thlvl": 2,	"gold": 200000, "elixir": 200000,	"darkelixir": 0},
+                {"thlvl": 3,	"gold": 400000, "elixir": 400000,	"darkelixir": 0},
+                {"thlvl": 4,	"gold": 600000, "elixir": 600000,	"darkelixir": 0},
+                {"thlvl": 5,	"gold": 800000, "elixir": 800000,	"darkelixir": 0},
+                {"thlvl": 6,	"gold": 1200000, "elixir": 1200000,	"darkelixir": 0},
+                {"thlvl": 7,	"gold": 1600000, "elixir": 1600000,	"darkelixir": 8000},
+                {"thlvl": 8,	"gold": 2000000, "elixir": 2000000,	"darkelixir": 10000},
+                {"thlvl": 9,	"gold": 2400000, "elixir": 2400000,	"darkelixir": 12000},
+                {"thlvl": 10,	"gold": 2800000, "elixir": 2800000,	"darkelixir": 14000},
+                {"thlvl": 11,	"gold": 3200000, "elixir": 3200000,	"darkelixir": 16000},
+                {"thlvl": 12,	"gold": 3600000, "elixir": 3600000,	"darkelixir": 18000},
+                {"thlvl": 13,	"gold": 4000000, "elixir": 4000000,	"darkelixir": 20000},
+                {"thlvl": 14,	"gold": 4400000, "elixir": 4400000,	"darkelixir": 22000}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1]
+            },
+            "cost": "gold"
+        }
+    ],
+    "army": [
+        {"name": "armycamp",
+            "formalname": "Army Camp",
+            "levels": [
+                {"level": 1,	"cap": 20,	"hp": 250,	"cost": 200,	"time": "5m",	       "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/army_camp_1.png"},
+                {"level": 2,	"cap": 30,	"hp": 270,	"cost": 2000,	"time": "15m",	       "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/army_camp_2.png"},
+                {"level": 3,	"cap": 35,	"hp": 290,	"cost": 10000,	"time": "2h",	       "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/army_camp_3.png"},
+                {"level": 4,	"cap": 40,	"hp": 310,	"cost": 100000,	"time": "5h",	       "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/army_camp_4.png"},
+                {"level": 5,	"cap": 45,	"hp": 330,	"cost": 250000,	"time": "8h",	       "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/army_camp_5.png"},
+                {"level": 6,	"cap": 50,	"hp": 350,	"cost": 750000,	"time": "12h",	       "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/army_camp_6.png"},
+                {"level": 7,	"cap": 55,	"hp": 400,	"cost": 1500000,	"time": "2d",	   "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/army_camp_7.png"},
+                {"level": 8,	"cap": 60,	"hp": 500,	"cost": 3000000,	"time": "3d 12h", "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/army_camp_8.png"},
+                {"level": 9,	"cap": 65,	"hp": 600,	"cost": 6000000,	"time": "9d",	  "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/army_camp_9.png"},
+                {"level": 10,	"cap": 70,	"hp": 700,	"cost": 9000000,	"time": "14d",	  "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/army_camp_10.png"},
+                {"level": 11,	"cap": 75,	"hp": 800,	"cost": 16000000,	"time": "16d",	  "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/army_camp_11.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [1,	1,	2,	2,	3,	3,	4,	4,	4,	4,	4,	4,	4,	4]
+            },
+            "cost": "elixir"
+        },
+
+        {"name": "barracks",
+            "formalname": "Barracks",
+            "levels": [
+                {"level": 1,	"troop": "Barbarian",	    "hp": 250,	"cost": 100,	    "time": "10s",	     "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/barracks_1.png"},
+                {"level": 2,	"troop": "Archer",	        "hp": 290,	"cost": 500,	    "time": "1m",	     "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/barracks_2.png"},
+                {"level": 3,	"troop": "Giant",	        "hp": 330,	"cost": 2500,	    "time": "10m",	     "thlvl": 1, "img": "https://www.clashtrack.com/img/buildings/barracks_3.png"},
+                {"level": 4,	"troop": "Goblin",	        "hp": 370,	"cost": 5000,	    "time": "1h",	     "thlvl": 2, "img": "https://www.clashtrack.com/img/buildings/barracks_4.png"},
+                {"level": 5,	"troop": "Wall Breaker",	"hp": 420,	"cost": 10000,	    "time": "4h",	     "thlvl": 3, "img": "https://www.clashtrack.com/img/buildings/barracks_5.png"},
+                {"level": 6,	"troop": "Balloon",	        "hp": 470,	"cost": 75000,	    "time": "8h",	     "thlvl": 4, "img": "https://www.clashtrack.com/img/buildings/barracks_6.png"},
+                {"level": 7,	"troop": "Wizard",	        "hp": 520,	"cost": 200000,	    "time": "12h",	     "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/barracks_7.png"},
+                {"level": 8,	"troop": "Healer",	        "hp": 580,	"cost": 600000,	    "time": "16h",	     "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/barracks_8.png"},
+                {"level": 9,	"troop": "Dragon",	        "hp": 650,	"cost": 900000,	    "time": "1d",	     "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/barracks_9.png"},
+                {"level": 10,	"troop": "P.E.K.K.A",	    "hp": 730,	"cost": 1200000,	"time": "1d 12h",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/barracks_10.png"},
+                {"level": 11,	"troop": "Baby Dragon",	    "hp": 810,	"cost": 1800000,	"time": "2d 12h",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/barracks_11.png"},
+                {"level": 12,	"troop": "Miner",	        "hp": 900,	"cost": 2500000,	"time": "4d",	    "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/barracks_12.png"},
+                {"level": 13,	"troop": "Electro Dragon",	"hp": 980,	"cost": 4000000,	"time": "6d",	    "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/barracks_13.png"},
+                {"level": 14,	"troop": "Yeti",	        "hp": 1050,	"cost": 5000000,	"time": "9d",	    "thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/barracks_14.png"},
+                {"level": 15,	"troop": "Dragon Rider",	"hp": 1150,	"cost": 6000000,	"time": "11d",	    "thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/barracks_15.png"}
+            ],
+            "troops": [
+                {"troop": "Barbarian", "dpd": "20s, 10s, 6s, 5s"},
+                {"troop": "Archer", "dpd": "24s, 12s, 8s, 6s"},
+                {"troop": "Giant", "dpd": "2m, 1m, 40s, 30s"},
+                {"troop": "Goblin", "dpd": "28s, 14s, 9s, 7s"},
+                {"troop": "Wall Breaker", "dpd": "1m, 30s, 20s, 15s"},
+                {"troop": "Balloon", "dpd": "2m, 1m, 40s, 30s"},
+                {"troop": "Wizard", "dpd": "2m, 1m, 40s, 30s"},
+                {"troop": "Healer", "dpd": "8m, 4m, 2m 40s, 2m"},
+                {"troop": "Dragon", "dpd": "12m, 6m, 4m, 3m"},
+                {"troop": "P.E.K.K.A", "dpd": "12m, 6m, 4m, 3m"},
+                {"troop": "Baby Dragon", "dpd": "6m, 3m, 2m, 1m 30s"},
+                {"troop": "Miner", "dpd": "2m, 1m, 40s, 30s"},
+                {"troop": "Electro Dragon", "dpd": "24m, 12m, 8m, 6m"},
+                {"troop": "Yeti", "dpd": "12m, 6m, 4m, 3m"},
+                {"troop": "Dragon Rider", "dpd": "16m 40s, 8m 20s, 5m 33s, 4m 10s"},
+                {"troop": "Super Barbarian", "dpd": "1m 40s, 50s, 33s, 25s"},
+                {"troop": "Super Archer", "dpd": "4m 48s, 2m 24s, 1m 36s, 1m 12s"},
+                {"troop": "Sneaky Goblin", "dpd": "1m 24s, 42s, 28s, 21s"},
+                {"troop": "Super Giant", "dpd": "4m, 2m, 1m 20s, 1m"},
+                {"troop": "Super Wall Breaker", "dpd": "4m, 2m, 1m 20s, 1m"},
+                {"troop": "Rocket Balloon", "dpd": "3m 12s, 1m 36s, 1m 4s, 48s"},
+                {"troop": "Super Wizard", "dpd": "5m, 2m 30s, 1m 40s, 1m 15s"},
+                {"troop": "Super Dragon", "dpd": "24m, 12m, 8m, 6m"},
+                {"troop": "Inferno Dragon", "dpd": "9m, 4m 30s, 3m, 2m 15s"}
+            ],
+            "note": "Training time reduced by amount of barracks.",
+            "spec": "1 Barrack, 2 Barracks, 3 Barracks, 4 Barracks",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [1,	2,	2,	3,	3,	3,	4,	4,	4,	4,	4,	4,	4,	4]
+            },
+            "cost": "elixir"
+        },
+
+        {"name": "darkbarracks",
+            "formalname": "Dark Barracks",
+            "levels": [
+                {"level": 1,	"troop": "Minion", 	    "hp": 500,	"cost": 100000,	    "time": "4h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_1.png"},
+                {"level": 2,	"troop": "Hog Rider", 	"hp": 550,	"cost": 300000,	    "time": "12h",	 "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_2.png"},
+                {"level": 3,	"troop": "Valkyrie", 	"hp": 600,	"cost": 500000,	    "time": "18h",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_3.png"},
+                {"level": 4,	"troop": "Golem", 	    "hp": 650,	"cost": 900000,	    "time": "1d",	 "thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_4.png"},
+                {"level": 5,	"troop": "Witch", 	    "hp": 700,	"cost": 1500000,	"time": "2d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_5.png"},
+                {"level": 6,	"troop": "Lava Hound", 	"hp": 750,	"cost": 2200000,	"time": "3d",	 "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_6.png"},
+                {"level": 7,	"troop": "Bowler", 	    "hp": 800,	"cost": 3000000,	"time": "5d",	"thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_7.png"},
+                {"level": 8,	"troop": "Ice Golem", 	"hp": 850,	"cost": 4000000,	"time": "9d",	"thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_8.png"},
+                {"level": 9,	"troop": "Headhunter", 	"hp": 900,	"cost": 7500000,	"time": "13d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/dark_barracks_9.png"}
+            ],
+            "troops": [
+                {"troop": "Minion",	"dpd": "36s, 18s"},
+                {"troop": "Hog Rider",	"dpd": "1m 30s, 45s"},
+                {"troop": "Valkyrie",	"dpd": "3m, 1m 30s"},
+                {"troop": "Golem",	"dpd": "10m, 5m"},
+                {"troop": "Witch",	"dpd": "4m ,2m"},
+                {"troop": "Lava Hound",	"dpd": "10m ,5m"},
+                {"troop": "Bowler",	"dpd": "2m ,1m"},
+                {"troop": "Ice Golem",	"dpd": "5m, 2m 30s"},
+                {"troop": "Headhunter",	"dpd": "2m, 1m"},
+                {"troop": "Super Minion",	"dpd": "3m 36s, 1m 48s"},
+                {"troop": "Super Valkyrie",	"dpd": "7m 30s, 3m 45s"},
+                {"troop": "Super Witch",	"dpd": "13m 20s ,6m 40s"},
+                {"troop": "Ice Hound",	"dpd": "13m 20s ,6m 40s"},
+                {"troop": "Super Bowler",	"dpd": "10m, 5m"}
+            ],
+            "note": "Training time reduced by amount of barracks.",
+            "spec": "1 Barrack, 2 Barracks",
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	1,	2,	2,	2,	2,	2,	2,	2]
+            },
+            "cost": "elixir"
+        },
+
+        {"name": "laboratory",
+            "formalname": "Laboratory",
+            "levels": [
+                {"level": 1,	"hp": 500,	"cost": 5000,	    "time": "1m",	 "lablvl": 3, "img": "https://www.clashtrack.com/img/buildings/laboratory_1.png"},
+                {"level": 2,	"hp": 550,	"cost": 25000,	    "time": "1h",	 "lablvl": 4, "img": "https://www.clashtrack.com/img/buildings/laboratory_2.png"},
+                {"level": 3,	"hp": 600,	"cost": 50000,	    "time": "2h",	 "lablvl": 5, "img": "https://www.clashtrack.com/img/buildings/laboratory_3.png"},
+                {"level": 4,	"hp": 650,	"cost": 100000,	    "time": "4h",	 "lablvl": 6, "img": "https://www.clashtrack.com/img/buildings/laboratory_4.png"},
+                {"level": 5,	"hp": 700,	"cost": 200000,	    "time": "8h",	 "lablvl": 7, "img": "https://www.clashtrack.com/img/buildings/laboratory_5.png"},
+                {"level": 6,	"hp": 750,	"cost": 400000,	    "time": "16h",	 "lablvl": 8, "img": "https://www.clashtrack.com/img/buildings/laboratory_6.png"},
+                {"level": 7,	"hp": 830,	"cost": 800000,	    "time": "1d",	 "lablvl": 9, "img": "https://www.clashtrack.com/img/buildings/laboratory_7.png"},
+                {"level": 8,	"hp": 950,	"cost": 1500000,	"time": "2d",	"lablvl": 10, "img": "https://www.clashtrack.com/img/buildings/laboratory_8.png"},
+                {"level": 9,	"hp": 1070,	"cost": 3000000,	"time": "4d",	"lablvl": 11, "img": "https://www.clashtrack.com/img/buildings/laboratory_9.png"},
+                {"level": 10,	"hp": 1140,	"cost": 6000000,	"time": "6d",	"lablvl": 12, "img": "https://www.clashtrack.com/img/buildings/laboratory_10.png"},
+                {"level": 11,	"hp": 1210,	"cost": 9000000,	"time": "9d",	"lablvl": 13, "img": "https://www.clashtrack.com/img/buildings/laboratory_11.png"},
+                {"level": 12,	"hp": 1280,	"cost": 12000000,	"time": "12d",	"lablvl": 14, "img": "https://www.clashtrack.com/img/buildings/laboratory_12.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1]
+            },
+            "cost": "elixir"
+        },
+
+        {"name": "spellfactory",
+            "formalname": "Spell Factory",
+            "levels": [
+                {"level": 1,	"hp": 425,	"spell": "Lightning Spell",	        "cap": 2,	"cost": 150000,	"time": "8h",	    "thlvl": 5, "img": "https://www.clashtrack.com/img/buildings/spell_factory_1.png"},
+                {"level": 2,	"hp": 470,	"spell": "Healing Spell",	        "cap": 4,	"cost": 300000,	"time": "1d",	    "thlvl": 6, "img": "https://www.clashtrack.com/img/buildings/spell_factory_2.png"},
+                {"level": 3,	"hp": 520,	"spell": "Rage Spell",	            "cap": 6,	"cost": 600000,	"time": "2d",	    "thlvl": 7, "img": "https://www.clashtrack.com/img/buildings/spell_factory_3.png"},
+                {"level": 4,	"hp": 600,	"spell": "Jump Spell, Freeze Spell","cap": 8,	"cost": 1200000,"time": "3d 12h",   "thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/spell_factory_4.png"},
+                {"level": 5,	"hp": 720,	"spell": "Clone Spell",	            "cap": 10,	"cost": 2400000,"time": "5d",	   "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/spell_factory_5.png"},
+                {"level": 6,	"hp": 840,	"spell": "Invisibility Spell",	    "cap": 10,	"cost": 4800000,"time": "7d",	   "thlvl": 11, "img": "https://www.clashtrack.com/img/buildings/spell_factory_6.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	1,	1,	1,	1,	1,	1,	1,	1,	1,	1]
+            },
+            "cost": "elixir"
+        },
+
+        {"name": "darkspellfactory",
+            "formalname": "Dark Spell Factory",
+            "levels": [
+                {"level": 1,	"hp": 600,	"spell": "Poison Spell",	"cap": 1,	"cost": 150000,	"time": "6h",	"thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/dark_spell_factory_1.png"},
+                {"level": 2,	"hp": 660,	"spell": "Earthquake Spell","cap": 1,	"cost": 300000,	"time": "18h",	"thlvl": 8, "img": "https://www.clashtrack.com/img/buildings/dark_spell_factory_2.png"},
+                {"level": 3,	"hp": 720,	"spell": "Haste Spell",	    "cap": 1,	"cost": 600000,	"time": "2d",	"thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_spell_factory_3.png"},
+                {"level": 4,	"hp": 780,	"spell": "Skeleton Spell",	"cap": 1,	"cost": 1200000,"time": "4d",	"thlvl": 9, "img": "https://www.clashtrack.com/img/buildings/dark_spell_factory_4.png"},
+                {"level": 5,	"hp": 840,	"spell": "Bat Spell",	    "cap": 1,	"cost": 2500000,"time": "6d",  "thlvl": 10, "img": "https://www.clashtrack.com/img/buildings/dark_spell_factory_5.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	1,	1,	1,	1,	1,	1,	1]
+            },
+            "cost": "elixir"
+        },
+
+        {"name": "workshop",
+            "formalname": "Workshop",
+            "levels": [
+                {"level": 1,	"troop": "Wall Wrecker",	"cap": 1,	"hp": 1000,	"cost": 5000000,	"time": "6d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/workshop_1.png"},
+                {"level": 2,	"troop": "Battle Blimp",	"cap": 2,	"hp": 1100,	"cost": 8000000,	"time": "8d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/workshop_2.png"},
+                {"level": 3,	"troop": "Stone Slammer",	"cap": 3,	"hp": 1200,	"cost": 10500000,	"time": "10d",	"thlvl": 12, "img": "https://www.clashtrack.com/img/buildings/workshop_3.png"},
+                {"level": 4,	"troop": "Siege Barracks",	"cap": 3,	"hp": 1300,	"cost": 14500000,	"time": "14d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/workshop_4.png"},
+                {"level": 5,	"troop": "Log Launcher",	"cap": 3,	"hp": 1400,	"cost": 16000000,	"time": "16d",	"thlvl": 13, "img": "https://www.clashtrack.com/img/buildings/workshop_5.png"},
+                {"level": 6,	"troop": "Flame Flinger",	"cap": 3,	"hp": 1500,	"cost": 17500000,	"time": "18d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/workshop_6.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	1]
+            },
+            "cost": "elixir"
+        },
+
+        {"name": "barbariankingalter",
+            "formalname": "Barbarian King Alter",
+            "levels": [
+                {"cost": 5000,	"time": "Instant",	"hp": 250,	"troop": "Barbarian King", "thlvl": 7, "img": "https://static.wikia.nocookie.net/clashofclans/images/8/86/BarbarianKing_Altar.png/revision/latest?cb=20171206125643"}
+            ],
+            "cost": "darkelixir"
+        },
+
+        {"name": "archerqueenalter",
+            "formalname": "Archer Queen Alter",
+            "levels": [
+                {"cost": 10000,	"time": "Instant",	"hp": 250,	"troop": "Archer Queen", "thlvl": 9, "img": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/ArcherQueen_Altar.png/revision/latest?cb=20171206125709"}
+            ],
+            "cost": "darkelixir"
+        },
+
+        {"name": "grandwardenalter",
+            "formalname": "Grand Warden Alter",
+            "levels": [
+                {"cost": 1000000,	"time": "Instant",	"hp": 250,	"troop": "Grand Warden", "thlvl": 11, "img": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/GrandWarden_Altar.png/revision/latest?cb=20201018085628"}
+            ],
+            "cost": "elixir"
+        },
+
+        {"name": "royalchampionalter",
+            "formalname": "Royal Champion Alter",
+            "levels": [
+                {"cost": 60000,	"time": "Instant",	"hp": 250,	"troop": "Royal Champion", "thlvl": 13, "img": "https://static.wikia.nocookie.net/clashofclans/images/3/39/RoyalChampion_Altar.png/revision/latest/scale-to-width-down/200?cb=20191211180135"}
+            ],
+            "cost": "darkelixir"
+        },
+
+        {"name": "pethouse",
+            "formalname": "Pet House",
+            "levels": [
+                {"level": 1,	"troop": "L.A.S.S.I",	"hp": 700,	"cost": 15000000,	"time": "13d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/pet_house_1.png"},
+                {"level": 2,	"troop": "Electro Owl",	"hp": 800,	"cost": 17500000,	"time": "15d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/pet_house_2.png"},
+                {"level": 3,	"troop": "Mighty Yak",	"hp": 900,	"cost": 18500000,	"time": "17d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/pet_house_3.png"},
+                {"level": 4,	"troop": "Unicorn",	    "hp": 1000,	"cost": 19500000,	"time": "19d",	"thlvl": 14, "img": "https://www.clashtrack.com/img/buildings/pet_house_4.png"}
+            ],
+            "amt": {
+                "th": [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14],
+                "amt": [0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1]
+            },
+            "cost": "elixir"
+        }
+    ]
+}
