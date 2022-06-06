@@ -166,7 +166,7 @@ app.get('/api/army', (req, res) => {
     res.send(troops)
 })
 
-app.get('/api/types', (req, res) => {
+app.get('/api/building/types', (req, res) => {
     const troops = bdb.types
     res.send(troops)
 })
