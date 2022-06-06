@@ -50,3 +50,27 @@ all calls can be made to: https://clash-database-api.herokuapp.com/api/
 /api/pets
 
 /api/pet/{pet-name}
+
+--Defenses
+
+/api/defenses
+
+/api/defense/{defense-name}
+
+--Army
+
+/api/army
+
+/api/army/{army-building-name}
+
+--Resource
+
+/api/resources
+
+/api/resource/{resource-building-name}
+
+--Traps
+
+/api/traps
+
+/api/trap/{trap-name}
