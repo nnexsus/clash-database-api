@@ -135,7 +135,7 @@ app.get('/api/defenses', (req, res) => {
 })
 
 app.get('/api/trap/:id', (req, res) => {
-    const troops = bdb.defensive
+    const troops = bdb.traps
     var troopByName = null
     troops.map((troop) => {
         if (troop.name === req.params.id) {
@@ -146,7 +146,23 @@ app.get('/api/trap/:id', (req, res) => {
 })
 
 app.get('/api/traps', (req, res) => {
-    const troops = bdb.defensive
+    const troops = bdb.traps
+    res.send(troops)
+})
+
+app.get('/api/resource/:id', (req, res) => {
+    const troops = bdb.main
+    var troopByName = null
+    troops.map((troop) => {
+        if (troop.name === req.params.id) {
+            troopByName = troop
+        }
+    })
+    res.send(troopByName)
+})
+
+app.get('/api/resources', (req, res) => {
+    const troops = bdb.main
     res.send(troops)
 })
 
