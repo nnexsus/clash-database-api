@@ -350,9 +350,9 @@
             "costtype": "elixir",
             "building": "barracks",
             "levels": [
-            {"level": 1,	"dps": 340,	"dpa": 408,	"dpd": 700,	"hp": 4100,	"traincost": 22000,	"recost": "N/A",	"retime": "N/A",	"lablvl": "N/A", "img": "https://www.clashtrack.com/img/research/yeti_1.png"},
-            {"level": 2,	"dps": 370,	"dpa": 444,	"dpd": 800,	"hp": 4400,	"traincost": 25000,	"recost": 16000000,	"retime": "15d",	"lablvl": 11, "img": "https://www.clashtrack.com/img/research/yeti_2.png"},
-            {"level": 3,	"dps": 400,	"dpa": 480,	"dpd": 900,	"hp": 4700,	"traincost": 28000,	"recost": 17500000,	"retime": "17d",	"lablvl": 12, "img": "https://www.clashtrack.com/img/research/yeti_3.png"}
+            {"level": 1,	"dps": 340,	"dpa": 408,	"dpd": 700,	"hp": 4100,	"traincost": 22000,	"recost": "N/A",	"retime": "N/A",	"lablvl": "N/A", "img": "https://www.clashtrack.com/img/research/dragon_rider_1.png"},
+            {"level": 2,	"dps": 370,	"dpa": 444,	"dpd": 800,	"hp": 4400,	"traincost": 25000,	"recost": 16000000,	"retime": "15d",	"lablvl": 11, "img": "https://www.clashtrack.com/img/research/dragon_rider_2.png"},
+            {"level": 3,	"dps": 400,	"dpa": 480,	"dpd": 900,	"hp": 4700,	"traincost": 28000,	"recost": 17500000,	"retime": "17d",	"lablvl": 12, "img": "https://www.clashtrack.com/img/research/dragon_rider_3.png"}
         ],
         "spec": "Damage on Death",
         "movespeed": 20,
@@ -721,7 +721,7 @@
             {"level": 7,	"dpd": "280, 44%, 65%",	"traincost": 185,   "recost": 260000,	"retime": "15d 12h", "lablvl": 11},
             {"level": 8,	"dpd": "300, 46%, 68%",	"traincost": 200,   "recost": 300000,	"retime": "17d 12h", "lablvl": 12}
         ],
-        "spec": "DPS, Speed Decrease, Attck Rate Decrease",
+        "spec": "DPS, Speed Decrease, Attack Rate Decrease",
         "image": "https://www.clashtrack.com/img/research/poison_spell_1.png"},
 
         {"name": "earthquakespell",
