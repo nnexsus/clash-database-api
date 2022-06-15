@@ -50,7 +50,7 @@ app.get('/api/hero/:id', (req, res) => {
 })
 
 app.get('/api/heroes', (req, res) => {
-    const troops = db.troops
+    const troops = db.heroes
     res.send(troops)
 })
 
@@ -66,7 +66,7 @@ app.get('/api/spell/:id', (req, res) => {
 })
 
 app.get('/api/spells', (req, res) => {
-    const troops = db.troops
+    const troops = db.spells
     res.send(troops)
 })
 
@@ -98,7 +98,7 @@ app.get('/api/siege/:id', (req, res) => {
 })
 
 app.get('/api/sieges', (req, res) => {
-    const troops = db.troops
+    const troops = db.seigemachines
     res.send(troops)
 })
 
@@ -114,7 +114,7 @@ app.get('/api/pet/:id', (req, res) => {
 })
 
 app.get('/api/pets', (req, res) => {
-    const troops = db.troops
+    const troops = db.pets
     res.send(troops)
 })
 
