@@ -883,10 +883,10 @@
             "costtype": "gold",
             "building": "workshop",
             "levels": [
-                {"level": 1,	"dps": 135,	"dpa": 675,	"dpd": 120,	"lp": "100s",	"hp": 1700, "traincost": 100000, "recost": "N/A",	    "retime": "N/A",	"lablvl": "N/A", "img": "https://www.clashtrack.com/img/research/flame_flinger_1.png"},
-                {"level": 2,	"dps": 150,	"dpa": 750,	"dpd": 140,	"lp": "105s",	"hp": 1800, "traincost": 100000, "recost": 8000000,	    "retime": "10d",	"lablvl": 10, "img": "https://www.clashtrack.com/img/research/flame_flinger_2.png"},
-                {"level": 3,	"dps": 165,	"dpa": 825,	"dpd": 160,	"lp": "111s",	"hp": 1900, "traincost": 100000, "recost": 11000000,	"retime": "14d",	"lablvl": 10, "img": "https://www.clashtrack.com/img/research/flame_flinger_3.png"},
-                {"level": 4,	"dps": 180,	"dpa": 900,	"dpd": 180,	"lp": "117s",	"hp": 2000, "traincost": 100000, "recost": 14000000,	"retime": "16d",	"lablvl": 11, "img": "https://www.clashtrack.com/img/research/flame_flinger_4.png"}
+                {"level": 1,	"dps": 135,	"dpa": 675,	"dpd": 120,	"lp": "100s",	"hp": 1700, "traincost": 100000, "recost": "N/A",	    "retime": "N/A",	"lablvl": "N/A", "img": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Flame_Flinger1.png/revision/latest/scale-to-width-down/100?cb=20211209201112"},
+                {"level": 2,	"dps": 150,	"dpa": 750,	"dpd": 140,	"lp": "105s",	"hp": 1800, "traincost": 100000, "recost": 8000000,	    "retime": "10d",	"lablvl": 10, "img": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Flame_Flinger2.png/revision/latest/scale-to-width-down/100?cb=20211209201116"},
+                {"level": 3,	"dps": 165,	"dpa": 825,	"dpd": 160,	"lp": "111s",	"hp": 1900, "traincost": 100000, "recost": 11000000,	"retime": "14d",	"lablvl": 10, "img": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Flame_Flinger3.png/revision/latest/scale-to-width-down/100?cb=20211209201119"},
+                {"level": 4,	"dps": 180,	"dpa": 900,	"dpd": 180,	"lp": "117s",	"hp": 2000, "traincost": 100000, "recost": 14000000,	"retime": "16d",	"lablvl": 11, "img": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Flame_Flinger4.png/revision/latest/scale-to-width-down/100?cb=20211209201123"}
             ],
             "spec": "Lingering Flame DPS",
             "ability": "Area Splash",
@@ -918,7 +918,8 @@
             "ability": "High Jumper",
             "abilityStats": "Can Jump Over Walls",
             "movespeed": 32,
-            "target": "Gound"
+            "target": "Gound",
+            "attackspeed": "0.9s"
         },
 
         {"name": "electroowl",
@@ -1217,7 +1218,7 @@
                 {"level": 5,	"dps": 185,	"dpa": 407,	"hp": 1800,	"traincost": 875},
                 {"level": 6,	"dps": 200,	"dpa": 440,	"hp": 2000,	"traincost": 1000}
             ],
-            "img": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Super_Barbarian_info.png/revision/latest/scale-to-width-down/250?cb=20200401065036",
+            "img": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Super_Bowler.PNG/revision/latest/scale-to-width-down/173?cb=20210925142558",
             "ability": "Triple Strike",
             "abilityStats": "Thrown Bolders bounce 3 times",
             "movespeed": 14,
