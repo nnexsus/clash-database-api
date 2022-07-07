@@ -83,10 +83,10 @@
             {"level": 4,	 "dps": 24,	"dpa": 48,  "hp": 600,	"traincost": 1500,	"recost": 500000,	"retime": "12h", "lablvl": 	5, "img": "https://www.clashtrack.com/img/research/giant_4.png"},
             {"level": 5,	 "dps": 31,	"dpa": 62,  "hp": 800,	"traincost": 2250,	"recost": 1200000,	"retime": "1d",	 "lablvl":  6, "img": "https://www.clashtrack.com/img/research/giant_5.png"},
             {"level": 6,	 "dps": 43,	"dpa": 86,  "hp": 1100,	"traincost": 3000,	"recost": 2000000,	"retime": "2d",	 "lablvl":  7, "img": "https://www.clashtrack.com/img/research/giant_6.png"},
-            {"level": 7,	 "dps": 50,	"dpa": 100,	"hp": 1300,	"traincost": 3500,	"recost": 3500000,	"retime": "4d",	 "lablvl":  8, "img": "https://www.clashtrack.com/img/research/giant_7.png"},
-            {"level": 8,	 "dps": 57,	"dpa": 114,	"hp": 1500,	"traincost": 4000,	"recost": 5000000,	"retime": "8d",	 "lablvl":  9, "img": "https://www.clashtrack.com/img/research/giant_8.png"},
-            {"level": 9,	 "dps": 64,	"dpa": 128,	"hp": 1850,	"traincost": 4500,	"recost": 9000000,	"retime": "13d", "lablvl": 	10, "img": "https://www.clashtrack.com/img/research/giant_9.png"},
-            {"level": 10,    "dps": 72,	"dpa": 144,	"hp": 2000,	"traincost": 5000,	"recost": 13000000,	"retime": "15d", "lablvl": 	11, "img": "https://www.clashtrack.com/img/research/giant_10.png"}
+            {"level": 7,	 "dps": 55,	"dpa": 100,	"hp": 1300,	"traincost": 3500,	"recost": 3500000,	"retime": "4d",	 "lablvl":  8, "img": "https://www.clashtrack.com/img/research/giant_7.png"},
+            {"level": 8,	 "dps": 62,	"dpa": 114,	"hp": 1500,	"traincost": 4000,	"recost": 5000000,	"retime": "8d",	 "lablvl":  9, "img": "https://www.clashtrack.com/img/research/giant_8.png"},
+            {"level": 9,	 "dps": 70,	"dpa": 128,	"hp": 1850,	"traincost": 4500,	"recost": 9000000,	"retime": "13d", "lablvl": 	10, "img": "https://www.clashtrack.com/img/research/giant_9.png"},
+            {"level": 10,    "dps": 78,	"dpa": 144,	"hp": 2000,	"traincost": 5000,	"recost": 13000000,	"retime": "15d", "lablvl": 	11, "img": "https://www.clashtrack.com/img/research/giant_10.png"}
         ],
         "super": "Super Giant @ lvl 9",
         "movespeed": 12,
@@ -248,12 +248,12 @@
             "building": "barracks",
             "levels": [
             {"level": 1,	"dps": 260,	"dpa": 468,	    "hp": 3000,	"traincost": 14000,	"recost": "N/A",	"retime": "N/A",	    "lablvl": "N/A", "img": "https://www.clashtrack.com/img/research/pekka_1.png"},
-            {"level": 2,	"dps": 290,	"dpa": 522,	    "hp": 3400,	"traincost": 16000,	"recost": 1200000,	"retime": "12h",	    "lablvl": 6, "img": "https://www.clashtrack.com/img/research/pekka_2.png"},
-            {"level": 3,	"dps": 320,	"dpa": 576,	    "hp": 3800,	"traincost": 18000,	"recost": 1800000,	"retime": "1d",	        "lablvl": 6, "img": "https://www.clashtrack.com/img/research/pekka_3.png"},
-            {"level": 4,	"dps": 360,	"dpa": 648,	    "hp": 4300,	"traincost": 20000,	"recost": 2800000,	"retime": "2d",	        "lablvl": 7, "img": "https://www.clashtrack.com/img/research/pekka_4.png"},
-            {"level": 5,	"dps": 410,	"dpa": 738,	    "hp": 4800,	"traincost": 22500,	"recost": 3800000,	"retime": "4d",	        "lablvl": 8, "img": "https://www.clashtrack.com/img/research/pekka_5.png"},
-            {"level": 6,	"dps": 470,	"dpa": 846,	    "hp": 5300,	"traincost": 25000,	"recost": 5000000,	"retime": "5d 12h",     "lablvl": 8, "img": "https://www.clashtrack.com/img/research/pekka_6.png"},
-            {"level": 7,	"dps": 540,	"dpa": 972,	    "hp": 5700,	"traincost": 27500,	"recost": 7500000,	"retime": "8d 12h",     "lablvl": 9, "img": "https://www.clashtrack.com/img/research/pekka_7.png"},
+            {"level": 2,	"dps": 290,	"dpa": 522,	    "hp": 3500,	"traincost": 16000,	"recost": 1200000,	"retime": "12h",	    "lablvl": 6, "img": "https://www.clashtrack.com/img/research/pekka_2.png"},
+            {"level": 3,	"dps": 320,	"dpa": 576,	    "hp": 4000,	"traincost": 18000,	"recost": 1800000,	"retime": "1d",	        "lablvl": 6, "img": "https://www.clashtrack.com/img/research/pekka_3.png"},
+            {"level": 4,	"dps": 360,	"dpa": 648,	    "hp": 4500,	"traincost": 20000,	"recost": 2800000,	"retime": "2d",	        "lablvl": 7, "img": "https://www.clashtrack.com/img/research/pekka_4.png"},
+            {"level": 5,	"dps": 410,	"dpa": 738,	    "hp": 5000,	"traincost": 22500,	"recost": 3800000,	"retime": "4d",	        "lablvl": 8, "img": "https://www.clashtrack.com/img/research/pekka_5.png"},
+            {"level": 6,	"dps": 470,	"dpa": 846,	    "hp": 5500,	"traincost": 25000,	"recost": 5000000,	"retime": "5d 12h",     "lablvl": 8, "img": "https://www.clashtrack.com/img/research/pekka_6.png"},
+            {"level": 7,	"dps": 540,	"dpa": 972,	    "hp": 5900,	"traincost": 27500,	"recost": 7500000,	"retime": "8d 12h",     "lablvl": 9, "img": "https://www.clashtrack.com/img/research/pekka_7.png"},
             {"level": 8,	"dps": 610,	"dpa": 1098,	"hp": 6300,	"traincost": 30000,	"recost": 11000000,	"retime": "14d",	    "lablvl": 10, "img": "https://www.clashtrack.com/img/research/pekka_8.png"},
             {"level": 9,	"dps": 680,	"dpa": 1224,	"hp": 6700,	"traincost": 32500,	"recost": 14000000,	"retime": "15d",	    "lablvl": 11, "img": "https://www.clashtrack.com/img/research/pekka_9.png"}
         ],
@@ -416,11 +416,11 @@
             {"level": 2,	"dps": 106,	"dpa": 190.8,	"hp": 850,	"traincost": 65,	"recost": 8000,	    "retime": "1d",	    "lablvl": 6, "img": "https://www.clashtrack.com/img/research/valkyrie_2.png"},
             {"level": 3,	"dps": 119,	"dpa": 214.2,	"hp": 950,	"traincost": 80,	"recost": 12000,	"retime": "2d",	    "lablvl": 7, "img": "https://www.clashtrack.com/img/research/valkyrie_3.png"},
             {"level": 4,	"dps": 133,	"dpa": 239.4,	"hp": 1050,	"traincost": 100,	"recost": 25000,	"retime": "3d",	    "lablvl": 7, "img": "https://www.clashtrack.com/img/research/valkyrie_4.png"},
-            {"level": 5,	"dps": 148,	"dpa": 266.4,	"hp": 1200,	"traincost": 130,	"recost": 45000,	"retime": "5d",	    "lablvl": 8, "img": "https://www.clashtrack.com/img/research/valkyrie_5.png"},
-            {"level": 6,	"dps": 163,	"dpa": 293.4,	"hp": 1300,	"traincost": 160,	"recost": 90000,	"retime": "7d 12h", "lablvl": 9, "img": "https://www.clashtrack.com/img/research/valkyrie_6.png"},
-            {"level": 7,	"dps": 178,	"dpa": 320.4,	"hp": 1450,	"traincost": 190,	"recost": 175000,	"retime": "11d",	"lablvl": 10, "img": "https://www.clashtrack.com/img/research/valkyrie_7.png"},
-            {"level": 8,	"dps": 193,	"dpa": 347.4,	"hp": 1650,	"traincost": 220,	"recost": 260000,	"retime": "16d",	"lablvl": 11, "img": "https://www.clashtrack.com/img/research/valkyrie_8.png"},
-            {"level": 9,	"dps": 208,	"dpa": 374.4,	"hp": 1900,	"traincost": 250,	"recost": 310000,	"retime": "17d",	"lablvl": 12, "img": "https://www.clashtrack.com/img/research/valkyrie_9.png"}
+            {"level": 5,	"dps": 148,	"dpa": 266.4,	"hp": 1300,	"traincost": 130,	"recost": 45000,	"retime": "5d",	    "lablvl": 8, "img": "https://www.clashtrack.com/img/research/valkyrie_5.png"},
+            {"level": 6,	"dps": 163,	"dpa": 293.4,	"hp": 1500,	"traincost": 160,	"recost": 90000,	"retime": "7d 12h", "lablvl": 9, "img": "https://www.clashtrack.com/img/research/valkyrie_6.png"},
+            {"level": 7,	"dps": 178,	"dpa": 320.4,	"hp": 1650,	"traincost": 190,	"recost": 175000,	"retime": "11d",	"lablvl": 10, "img": "https://www.clashtrack.com/img/research/valkyrie_7.png"},
+            {"level": 8,	"dps": 193,	"dpa": 347.4,	"hp": 1800,	"traincost": 220,	"recost": 260000,	"retime": "16d",	"lablvl": 11, "img": "https://www.clashtrack.com/img/research/valkyrie_8.png"},
+            {"level": 9,	"dps": 208,	"dpa": 374.4,	"hp": 2000,	"traincost": 250,	"recost": 310000,	"retime": "17d",	"lablvl": 12, "img": "https://www.clashtrack.com/img/research/valkyrie_9.png"}
         ],
         "super": "Super Valkyrie @ lvl 7",
         "ability": "Area Splash",
@@ -501,11 +501,11 @@
             "costtype": "darkelixir",
             "building": "darkbarracks",
             "levels": [
-            {"level": 1,	"dps": 60,	"dpa": 132,	    "hp": 290,	"traincost": 70,	"recost": "N/A",	"retime": "N/A",	 "lablvl": "N/A", "img": "https://www.clashtrack.com/img/research/bowler_1.png"},
-            {"level": 2,	"dps": 70,	"dpa": 154,	    "hp": 310,	"traincost": 95,	"recost": 75000,	"retime": "4d",	     "lablvl": 8, "img": "https://www.clashtrack.com/img/research/bowler_2.png"},
-            {"level": 3,	"dps": 80,	"dpa": 176,	    "hp": 350,	"traincost": 115,	"recost": 125000,	"retime": "7d",	     "lablvl": 9, "img": "https://www.clashtrack.com/img/research/bowler_3.png"},
-            {"level": 4,	"dps": 90,	"dpa": 198,	    "hp": 390,	"traincost": 140,	"recost": 200000,	"retime": "12d",	 "lablvl": 10, "img": "https://www.clashtrack.com/img/research/bowler_4.png"},
-            {"level": 5,	"dps": 96,	"dpa": 211.2,	"hp": 430,	"traincost": 175,	"recost": 280000,	"retime": "14d 12h", "lablvl": 11, "img": "https://www.clashtrack.com/img/research/bowler_5.png"},
+            {"level": 1,	"dps": 60,	"dpa": 132,	    "hp": 325,	"traincost": 70,	"recost": "N/A",	"retime": "N/A",	 "lablvl": "N/A", "img": "https://www.clashtrack.com/img/research/bowler_1.png"},
+            {"level": 2,	"dps": 70,	"dpa": 154,	    "hp": 350,	"traincost": 95,	"recost": 75000,	"retime": "4d",	     "lablvl": 8, "img": "https://www.clashtrack.com/img/research/bowler_2.png"},
+            {"level": 3,	"dps": 80,	"dpa": 176,	    "hp": 385,	"traincost": 115,	"recost": 125000,	"retime": "7d",	     "lablvl": 9, "img": "https://www.clashtrack.com/img/research/bowler_3.png"},
+            {"level": 4,	"dps": 90,	"dpa": 198,	    "hp": 420,	"traincost": 140,	"recost": 200000,	"retime": "12d",	 "lablvl": 10, "img": "https://www.clashtrack.com/img/research/bowler_4.png"},
+            {"level": 5,	"dps": 96,	"dpa": 211.2,	"hp": 455,	"traincost": 175,	"recost": 280000,	"retime": "14d 12h", "lablvl": 11, "img": "https://www.clashtrack.com/img/research/bowler_5.png"},
             {"level": 6,	"dps": 102,	"dpa": 224.4,	"hp": 500,	"traincost": 200,	"recost": 320000,	"retime": "17d 12h", "lablvl": 12, "img": "https://www.clashtrack.com/img/research/bowler_6.png"}
         ],
         "super": "Super Bowler @ lvl 4",
@@ -681,10 +681,10 @@
             "costtype": "elixir",
             "building": "spellfactory",
             "levels": [
-            {"level": 1,	"dpd": 18,	"traincost": 28000,	"recost": "N/A",	"retime": "N/A",	 "lablvl": "N/A"},
-            {"level": 2,	"dpd": 21,	"traincost": 29500,	"recost": 2500000,	"retime": "2d",	     "lablvl": 8},
-            {"level": 3,	"dpd": 24,	"traincost": 31000,	"recost": 4000000,	"retime": "4d",	     "lablvl": 8},
-            {"level": 4,	"dpd": 27,	"traincost": 32500,	"recost": 6000000,	"retime": "5d 12h",	 "lablvl": 9},
+            {"level": 1,	"dpd": 22,	"traincost": 28000,	"recost": "N/A",	"retime": "N/A",	 "lablvl": "N/A"},
+            {"level": 2,	"dpd": 24,	"traincost": 29500,	"recost": 2500000,	"retime": "2d",	     "lablvl": 8},
+            {"level": 3,	"dpd": 26,	"traincost": 31000,	"recost": 4000000,	"retime": "4d",	     "lablvl": 8},
+            {"level": 4,	"dpd": 28,	"traincost": 32500,	"recost": 6000000,	"retime": "5d 12h",	 "lablvl": 9},
             {"level": 5,	"dpd": 30,	"traincost": 34000,	"recost": 8000000,	"retime": "10d",	 "lablvl": 9},
             {"level": 6,	"dpd": 34,	"traincost": 35500,	"recost": 12000000,	"retime": "15d",	 "lablvl": 11},
             {"level": 7,	"dpd": 38,	"traincost": 37000,	"recost": 16500000,	"retime": "16d 12h", "lablvl": 12}
@@ -760,12 +760,12 @@
             "costtype": "darkelixir",
             "building": "darkspellfactory",
             "levels": [
-            {"level": 1,	"dpd": 11,	"traincost": 110,	"recost": "N/A",	"retime": "N/A",	 "lablvl": "N/A"},
-            {"level": 2,	"dpd": 12,	"traincost": 120,	"recost": 25000,	"retime": "1d 12h",	 "lablvl": 8},
-            {"level": 3,	"dpd": 13,	"traincost": 130,	"recost": 40000,	"retime": "3d",	     "lablvl": 8},
-            {"level": 4,	"dpd": 14,	"traincost": 140,	"recost": 70000,	"retime": "6d",	     "lablvl": 9},
-            {"level": 5,	"dpd": 15,	"traincost": 150,	"recost": 125000,	"retime": "8d 12h",	 "lablvl": 10},
-            {"level": 6,	"dpd": 16,	"traincost": 160,	"recost": 150000,	"retime": "10d 12h", "lablvl": 10},
+            {"level": 1,	"dpd": 12,	"traincost": 110,	"recost": "N/A",	"retime": "N/A",	 "lablvl": "N/A"},
+            {"level": 2,	"dpd": 13,	"traincost": 120,	"recost": 25000,	"retime": "1d 12h",	 "lablvl": 8},
+            {"level": 3,	"dpd": 14,	"traincost": 130,	"recost": 40000,	"retime": "3d",	     "lablvl": 8},
+            {"level": 4,	"dpd": 15,	"traincost": 140,	"recost": 70000,	"retime": "6d",	     "lablvl": 9},
+            {"level": 5,	"dpd": 16,	"traincost": 150,	"recost": 125000,	"retime": "8d 12h",	 "lablvl": 10},
+            {"level": 6,	"dpd": 17,	"traincost": 160,	"recost": 150000,	"retime": "10d 12h", "lablvl": 10},
             {"level": 7,	"dpd": 18,	"traincost": 170,	"recost": 250000,	"retime": "15d",	 "lablvl": 11}
         ],
         "spec": "Skeletons Summoned",
@@ -883,14 +883,14 @@
             "costtype": "gold",
             "building": "workshop",
             "levels": [
-                {"level": 1,	"dps": 135,	"dpa": 675,	"dpd": 120,	"lp": "100s",	"hp": 1700, "traincost": 100000, "recost": "N/A",	    "retime": "N/A",	"lablvl": "N/A", "img": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Flame_Flinger1.png/revision/latest/scale-to-width-down/100?cb=20211209201112"},
-                {"level": 2,	"dps": 150,	"dpa": 750,	"dpd": 140,	"lp": "105s",	"hp": 1800, "traincost": 100000, "recost": 8000000,	    "retime": "10d",	"lablvl": 10, "img": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Flame_Flinger2.png/revision/latest/scale-to-width-down/100?cb=20211209201116"},
-                {"level": 3,	"dps": 165,	"dpa": 825,	"dpd": 160,	"lp": "111s",	"hp": 1900, "traincost": 100000, "recost": 11000000,	"retime": "14d",	"lablvl": 10, "img": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Flame_Flinger3.png/revision/latest/scale-to-width-down/100?cb=20211209201119"},
-                {"level": 4,	"dps": 180,	"dpa": 900,	"dpd": 180,	"lp": "117s",	"hp": 2000, "traincost": 100000, "recost": 14000000,	"retime": "16d",	"lablvl": 11, "img": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Flame_Flinger4.png/revision/latest/scale-to-width-down/100?cb=20211209201123"}
+                {"level": 1,	"dps": 80,	"dpa": 675,	"dpd": 120,	"lp": "100s",	"hp": 1700, "traincost": 100000, "recost": "N/A",	    "retime": "N/A",	"lablvl": "N/A", "img": "https://static.wikia.nocookie.net/clashofclans/images/2/2f/Flame_Flinger1.png/revision/latest/scale-to-width-down/100?cb=20211209201112"},
+                {"level": 2,	"dps": 95,	"dpa": 750,	"dpd": 140,	"lp": "105s",	"hp": 1800, "traincost": 100000, "recost": 8000000,	    "retime": "10d",	"lablvl": 10, "img": "https://static.wikia.nocookie.net/clashofclans/images/a/a7/Flame_Flinger2.png/revision/latest/scale-to-width-down/100?cb=20211209201116"},
+                {"level": 3,	"dps": 105,	"dpa": 825,	"dpd": 160,	"lp": "111s",	"hp": 1900, "traincost": 100000, "recost": 11000000,	"retime": "14d",	"lablvl": 10, "img": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Flame_Flinger3.png/revision/latest/scale-to-width-down/100?cb=20211209201119"},
+                {"level": 4,	"dps": 120,	"dpa": 900,	"dpd": 180,	"lp": "117s",	"hp": 2000, "traincost": 100000, "recost": 14000000,	"retime": "16d",	"lablvl": 11, "img": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Flame_Flinger4.png/revision/latest/scale-to-width-down/100?cb=20211209201123"}
             ],
             "spec": "Lingering Flame DPS",
             "ability": "Area Splash",
-            "abilityStats": "Leaves Lingering Flame Spirits That Do Damage Over Time",
+            "abilityStats": "Leaves Lingering Flame Spirits That Do Damage 30 Seconds",
             "movespeed": 6,
             "target": "Defenses",
             "attackspeed": "5s"
@@ -1052,8 +1052,8 @@
             "formalname": "Sneaky Goblin",
             "housing": 3,
             "levels": [
-                {"level": 7,	"dps": 160,	"dpa": 160,	"dpd": 320,	"hp": 270,	"traincost": 600},
-                {"level": 8,	"dps": 190,	"dpa": 190,	"dpd": 380,	"hp": 320,	"traincost": 750}
+                {"level": 7,	"dps": 155,	"dpa": 160,	"dpd": 320,	"hp": 270,	"traincost": 600},
+                {"level": 8,	"dps": 170,	"dpa": 190,	"dpd": 380,	"hp": 320,	"traincost": 750}
             ],
             "img": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Sneaky_Goblin_info.png/revision/latest/scale-to-width-down/250?cb=20201211014521",
             "spec": "Damage VS Resource Buildings",
@@ -1168,9 +1168,9 @@
             "formalname": "Super Valkyrie",
             "housing": 20,
             "levels": [
-                {"level": 7,	"dps": 250,	"dpa": 450,	"hp": 2000,	"traincost": 475},
-                {"level": 8,	"dps": 300,	"dpa": 540,	"hp": 2300,	"traincost": 550},
-                {"level": 9,	"dps": 325,	"dpa": 585,	"hp": 2500,	"traincost": 625}
+                {"level": 7,	"dps": 250,	"dpa": 450,	"hp": 2400,	"traincost": 475},
+                {"level": 8,	"dps": 300,	"dpa": 540,	"hp": 2700,	"traincost": 550},
+                {"level": 9,	"dps": 325,	"dpa": 585,	"hp": 2900,	"traincost": 625}
             ],
             "img": "https://static.wikia.nocookie.net/clashofclans/images/2/25/Super_Valkyrie_Info.png/revision/latest/scale-to-width-down/300?cb=20201011215025",
             "ability": "Farewell Gift",
